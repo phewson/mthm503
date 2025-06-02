@@ -29,3 +29,16 @@ load_data <- function() {
   DBI::dbDisconnect(con)
   df
 }
+
+load_extrication_data <- function() {
+  con <- get_db_connection()
+  
+  sql_text <- "
+    SELECT *
+    FROM fire_rescue_extrication_casualties
+  "
+  df <- DBI::dbGetQuery(con, sql_text)
+  
+  DBI::dbDisconnect(con)
+  df
+}

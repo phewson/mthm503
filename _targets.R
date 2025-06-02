@@ -5,6 +5,7 @@ library(here)
 source(here("R", "functions.R"))
 source(here("R", "load_data.R"))
 source(here("R", "utils.R"))
+source(here("R", "clean_extrications.R"))
 
 
 tar_option_set(packages = c("dplyr", "DBI", "RPostgres"))
@@ -17,6 +18,10 @@ list(
   tar_target(
     summary_data,
     summarise_data(raw_data)
+  ),
+  tar_target(
+    extrication_data,
+    clean_extrications(load_extrication_data())
   ),
   tar_render(
     report,
