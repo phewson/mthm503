@@ -16,5 +16,6 @@ mock_extrications <- data.frame(
   age_band = c("0-16", c("0-16"))
 )
 
-DBI::dbWriteTable(con, "fire_rescue_extrication_casualties", mock_df, overwrite = TRUE)
+DBI::dbWriteTable(con, "fire_rescue_extrication_casualties",
+                  mock_df, overwrite = TRUE)
 DBI::dbDisconnect(con)
