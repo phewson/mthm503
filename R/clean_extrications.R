@@ -7,10 +7,10 @@ financial_years <- c("2010/11", "2011/12", "2012/13", "2013/14", "2014/15",
 
 clean_extrications <- function(df) {
   df %>%
-    mutate(.data$extrication <- as.factor(.data$extrication),
-           .data$sex <- as.factor(.data$sex),
-           .data$age_band <- factor(.data$age_band, levels = age_bands),
-           .data$financial_year <- factor(.data$financial_year,
+    mutate(extrication <- as.factor(.data$extrication),
+           sex <- as.factor(.data$sex),
+           age_band <- factor(.data$age_band, levels = age_bands),
+           financial_year <- factor(.data$financial_year,
                                           levels = financial_years,
                                           ordered = TRUE))
 }

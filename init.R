@@ -1,4 +1,6 @@
 message("Initializing project setup...")
+#options(repos = "https://cloud.r-project.org/")
+
 
 if (!requireNamespace("renv", quietly = TRUE)) {
   install.packages("renv")
@@ -27,6 +29,13 @@ if (Sys.info()[["sysname"]] == "Linux" && grepl("debian", tolower(system("lsb_re
   message("Detected Debian Linux. Checking on stringi...")
   install_if_missing("stringi")
 }
+
+if (Sys.info()[["sysname"]] == "Windows") {
+  options(pkgType = "binary")
+}
+
+
+
 
 # Source install systemfonts on Debian (assumes nix)  may fail to load with binary if system libs differ
 
