@@ -20,8 +20,12 @@ list(
     summarise_data(raw_data)
   ),
   tar_target(
+    extrication_data_raw,
+    load_extrication_data()
+  ),
+  tar_target(
     extrication_data,
-    clean_extrications(load_extrication_data())
+    clean_extrications(extrication_data_raw)
   ),
   tar_render(
     report,
