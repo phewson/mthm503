@@ -17,5 +17,5 @@ mock_extrications <- data.frame(
 )
 
 DBI::dbWriteTable(con, "fire_rescue_extrication_casualties",
-                  mock_df, overwrite = TRUE)
+                  mock_extrications, overwrite = TRUE)
 DBI::dbDisconnect(con)
