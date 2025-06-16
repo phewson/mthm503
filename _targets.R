@@ -79,5 +79,45 @@ list(
   tar_target(
     roc_all_aucs,
     roc_auc(storm_preds, truth = type, starts_with(".pred_"))
+  ),
+  tar_target(
+    knn_classifier,
+    fit_knn(storms_train, 5)
+  ),
+  tar_target(
+    knn_preds,
+    make_preds(storms_test, knn_classifier)
+  ),
+  tar_target(
+    knn_roc,
+    roc_auc(knn_preds, truth = type, starts_with(".pred_"))
+  ),
+  tar_target(
+    roc_knn_hurricane,
+    make_roc_curve(knn_preds, "Hurricane")
+  ),
+  tar_target(
+    roc_knn_tropical_depression,
+    make_roc_curve(knn_preds, "Tropical Depression")
+  ),
+  tar_target(
+    roc_knn_tropical_storm,
+    make_roc_curve(knn_preds, "Tropical Storm")
+  ),
+  tar_target(
+    roc_knn_extratropical,
+    make_roc_curve(knn_preds, "Extratropical")
+  ),
+  tar_target(
+    knn_class_preds,
+    make_class_preds(storms_test, knn_classifier)
+  ),
+  tar_target(
+    knn_confusion,
+    confusion_matrix(knn_class_preds)
+  ),
+  tar_target(
+    knn_accuracy,
+    accuracy(knn_class_preds)
   )
 )
