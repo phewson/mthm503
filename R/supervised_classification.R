@@ -5,11 +5,16 @@ library(nasaweather)
 library(partykit)
 library(tidymodels)
 library(yardstick)
+library(kknn)
+
+load_storms_data <- function() {
+  nasaweather::storms
+}
 
 simple_count <- function(df) {
   df %>%
     group_by(.data$type) %>%
-    summarise(n())
+    summarise(count = n())
 }
 
 create_indicators <- function(df, target_class) {

@@ -26,7 +26,7 @@ list(
   ),
   tar_target(
     storms_data,
-    {storms <- nasaweather::storms}
+    load_storms_data()
   ),
   tar_target(
     storms_by_storm_type,
@@ -69,7 +69,7 @@ list(
     make_roc_curve(storm_preds, "Tropical Depression")
   ),
   tar_target(
-    roc_tropical_depression,
+    roc_tropical_storm,
     make_roc_curve(storm_preds, "Tropical Storm")
   ),
   tar_target(
@@ -79,6 +79,18 @@ list(
   tar_target(
     roc_all_aucs,
     roc_auc(storm_preds, truth = type, starts_with(".pred_"))
+  ),
+  tar_target(
+    class_preds,
+    make_class_preds(storms_test, storms_classifier)
+  ),
+  tar_target(
+    confusion,
+    confusion_matrix(class_preds)
+  ),
+  tar_target(
+    accuracy,
+    accuracy(class_preds)
   ),
   tar_target(
     knn_classifier,
@@ -109,6 +121,10 @@ list(
     make_roc_curve(knn_preds, "Extratropical")
   ),
   tar_target(
+    knn_roc_all_aucs,
+    roc_auc(knn_preds, truth = type, starts_with(".pred_"))
+  ),
+  tar_target(
     knn_class_preds,
     make_class_preds(storms_test, knn_classifier)
   ),
@@ -119,5 +135,9 @@ list(
   tar_target(
     knn_accuracy,
     accuracy(knn_class_preds)
+  ),
+  tar_render(
+    sup_class_report,
+    "vignettes/supervised_classification.Rmd"
   )
 )
