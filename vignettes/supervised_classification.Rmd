@@ -1,0 +1,164 @@
+---
+title: "Supervised classification"
+author: "Paul Hewson"
+date: "2025-05-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## NASA storms data
+ 
+ 
+We are working with data on tropical cyclone tracks through the Atlantic Ocean, Caribbean Sea and Gulf of Mexico from 1995 to 2000. Only "named" storms, that is, those which reached tropical storm status or stronger, are included.  The data were collated by Jon Hobbs and form part of the `nasaweather` package. The data originated from the National Hurricane Center's archive of Tropical Cyclone Reports (https://www.nhc.noaa.gov/). These data were hand-scraped from individual tropical cyclone reports.
+
+There are a variety of storm type designations with no consistent naming convention for a variety of cyclone types, these were combined into the "Extratropical" category.
+
+Firstly, a quick look at the number of each type of storm recorded:
+
+```{r load_data_and_packages, echo=FALSE, results='as.is', message=FALSE, warning=FALSE}
+library(partykit)
+knitr::opts_knit$set(root.dir = here::here())
+if (file.exists("../_targets")) {
+  targets::tar_config_set("store" = "../_targets")
+  }
+targets::tar_load("storms_by_storm_type")
+knitr::kable(storms_by_storm_type)
+```
+
+And secondly, a plot of the storm type against wind speed and air pressure. 
+
+```{r plot_storms, echo = FALSE}
+targets::tar_load(plot_storms)
+plot_storms
+```
+
+## Data preparation
+
+We have used an 80:20 split for our testing and training data. Arguably, this isn't so important for knn as it is for the recursive partitioning.
+
+## Recursive partitioning tree
+
+
+First of all a classifer was built from a recursive partitioning tree. A little bit of trial and error suggested a cost complexity parameter of 0.01 provided the best balance.
+
+```{r rpart, echo = FALSE, fig.width=12, fig.height=8}
+targets::tar_load(storms_classifier)
+plot(partykit::as.party(storms_classifier$fit))
+
+
+```
+We can obtain four ROC curves for each of the storm types:
+
+
+
+```{r roc_hurricane, echo = FALSE}
+targets::tar_load(roc_hurricane)
+roc_hurricane
+
+```
+
+
+```{r roc_extra_tropical, echo = FALSE}
+targets::tar_load(roc_extra_tropical)
+roc_extra_tropical
+
+```
+
+
+```{r roc_depression, echo = FALSE}
+targets::tar_load(roc_depression)
+roc_depression
+
+```
+
+
+```{r roc_tropical_storm, echo = FALSE}
+targets::tar_load(roc_tropical_storm)
+roc_tropical_storm
+
+```
+
+It would appear two of the storm types can be well classified, two badly classified.  More details are available from the confusion matrix
+
+
+```{r confusion, echo = FALSE}
+targets::tar_load(confusion)
+confusion
+```
+
+```{r accuracy, echo = FALSE}
+targets::tar_load(accuracy)
+accuracy
+```
+
+
+## k-Nearest Neighbours
+
+
+We can repeat the process with k-nearest neighbours, setting the number of neighbours equal to five.
+
+
+```{r roc_knn_hurricane, echo = FALSE}
+targets::tar_load(roc_knn_hurricane)
+roc_knn_hurricane
+
+```
+
+
+```{r roc_knn_extra_tropical, echo = FALSE}
+targets::tar_load(roc_knn_extratropical)
+roc_knn_extratropical
+
+```
+
+
+```{r roc_knn_tropical_depression, echo = FALSE}
+targets::tar_load(roc_knn_tropical_depression)
+roc_knn_tropical_depression
+
+```
+
+
+```{r roc_knn_tropical_storm, echo = FALSE}
+targets::tar_load(roc_knn_tropical_storm)
+roc_knn_tropical_storm
+
+```
+
+The pattern is very similar to that seen with recursive partitioning.
+
+
+```{r knn_confusion, echo = FALSE}
+targets::tar_load(knn_confusion)
+knn_confusion
+```
+
+```{r knn_accuracy, echo = FALSE}
+targets::tar_load(knn_accuracy)
+knn_accuracy
+```
+
+## Comparison
+
+
+Comparing the two methods side by side, we can compute an overall AUC value for the models:
+
+
+```{r rpart_all_aucs, echo = FALSE}
+targets::tar_load(roc_all_aucs)
+roc_all_aucs
+```
+```{r knn_all_aucs, echo = FALSE}
+targets::tar_load(knn_roc_all_aucs)
+knn_roc_all_aucs
+```
+
+
+## Conclusions
+
+We seem to be able to predict hurricanes accurately given air pressure and temperature. But there are clear problems with Tropical Depression and Tropical Storms.  It may be a feature of the data that these cannot be disentangled.  
+
+We could consider additional variables, the only one available is `seasday`, the day of the hurricane season (which starts on June 1st).  Also, we could consider interactions between the variables and non-linear transformations.  But as we have only two variables the figure at the top really does tell us that these are difficult to distinguish based on the data available.
