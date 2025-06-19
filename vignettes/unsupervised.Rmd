@@ -1,0 +1,155 @@
+---
+title: "Unsupervised Classification Problem 2"
+author: "Paul Hewson"
+date: "2025-06-19"
+output: html_document
+---
+
+The targets pipeline and all code that creates this report is on the module repository, on the `unsupclass` branch.
+
+## Chapter 12 Question 2
+ 
+We're asked to perform some supervised classification on the cars data we were provided, but to select a different model. I decided to look at Audi.  The extraction from the Excel spreadsheet is quite cumbersome, I've done this manually (remember, we had to answer a couple of questions when we downloaded the data). Once I obtained the Audi data, I wrote the results to an RSQLite database called `cars.sqlite`.  The code that does this extraction is in the file `cars.R` and both have been placed in the folder `mock_data`. 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simple EDA
+
+We should always make some effort to understand our data prior to any analysis.  Here are some key components of an EDA.
+
+```{r summary_stats, echo = FALSE, results = 'asis', warning=FALSE, message=FALSE}
+targets::tar_load(car_df)
+knitr::kable(summary(car_df))
+```
+
+There are five dimensions I'm interested in. The best I can do to understand this is by means of a pairwise scatterplot.
+
+```{r pairwiseeda, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(pairwise_cars)
+pairwise_cars
+```
+
+
+## Hierarchical clustering
+
+Hierarchical clustering is one of the oldest clustering techniques. The main disadvantage is that in order to perform this technique you need to create an $n \times n$ matrix of distances between each row and each other row. In many modern problems this is an impossibly big matrix.  The other smaller disadvantage is that it works well with numeric data, but it's less clear how to measure the distance between qualitative variables. This is an ongoing research area e.g. Michel van de Velden, Alfonso Iodice D’Enza, Angelos Markos, Carlo Cavicchia (2024) "A general framework for implementing distances for categorical variables" *Pattern Recognition* **153**:110547 [https://doi.org/10.1016/j.patcog.2024.110547](doi.org/10.1016/j.patcog.2024.110547) 
+
+
+Anyway, for problem 2 this isn't a problem as (a) it's a small dataset and (b) we only have quantitative variables.  Accordingly we can obtain a dendrogram as follows:
+
+```{r cars, warning=FALSE, message=FALSE}
+targets::tar_load(car_hclust)
+plot(car_hclust)
+```
+
+There are some subtleties here. We could consider "scaling" all the variables so they have the same range of values and influence distance in a comparable way. Likewise, we can use nearest, furthest and complete linkage methods when building the tree.  However, we have a tree which depicts the relationships between entities (cars) in our cluster analysis. If we had a domain expert who knew about cars they might be able to interpret it for us.  One thing we can do is cut the tree at different positions on the $y$ axis in order to obtain a specific number of clusters.
+
+
+```{r pairwise_hclust, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(pairwise_cars_clust2)
+pairwise_cars_clust2
+```
+
+
+```{r silhouettes, warning=FALSE, message=FALSE, echo = FALSE}
+targets::tar_load(silhouettes)
+kmax <- length(silhouettes) + 1
+plot(2:kmax, silhouettes, type = "b",
+    xlab = "Number of clusters (k)",
+    ylab = "Average silhouette width",
+    main = "Silhouette analysis for hierarchical clustering")
+```
+
+## Dimension reduction
+
+It's really not easy to see what's going on in five dimensional space. Maybe we could reduce dimensionality somewhat, using principal components analysis.
+
+
+There is a standard `S3` plotting method that displays the scree plot for a fitted `pca` object:
+
+```{r carspca, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(cars_pca)
+plot(cars_pca)
+```
+
+This one is a little frustrating because it looks as if three components would explain pretty much all the variance in the data.  However, if we construct a plot that shows the "cumulative proportion of variance explained" on a second $y$ axis, we can see that two dimensions explain over 80% of the variation, which is useful.
+
+
+```{r var_explained, echo = FALSE, warning=FALSE, message=FALSE}
+var_explained <- cars_pca$sdev^2 / sum(cars_pca$sdev^2)
+cum_var_explained <- cumsum(var_explained)
+
+# Create a data frame for plotting
+df <- data.frame(
+  PC = seq_along(var_explained),
+  Variance = var_explained,
+  Cumulative = cum_var_explained
+)
+# Plot with secondary y-axis
+ggplot2::ggplot(df, ggplot2::aes(x = PC)) +
+  ggplot2::geom_bar(ggplot2::aes(y = Variance), stat = "identity", fill = "steelblue") +
+  ggplot2::geom_line(ggplot2::aes(y = Cumulative), color = "red", size = 1) +
+  ggplot2::geom_point(ggplot2::aes(y = Cumulative), color = "red", size = 2) +
+  ggplot2::scale_y_continuous(
+    name = "Proportion of Variance (%)",
+    breaks = seq(0, 1, 0.1),  # Major grid lines every 10%
+    sec.axis = ggplot2::sec_axis(~ ., name = "Cumulative Proportion (%)")
+  ) +
+  ggplot2::theme_minimal() +
+  ggplot2::labs(
+    title = "Scree Plot with Cumulative Variance (%)",
+    x = "Principal Component"
+  )
+```
+
+It's going a bit beyond the scope of this module, but as there is an `S3` method available, we can also look at the biplot which helps explain the projection being used by our dimension reduction.
+
+
+
+
+```{r carspca_biplot, echo = FALSE, warning=FALSE, message=FALSE}
+biplot(cars_pca)
+```
+
+
+But really, the object of the exercise is to visualise the data in fewer dimensions so we can see whether our clustering has done something sensible.
+
+
+```{r pcawithhclusters, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(pairwise_cars_h2_pca)
+pairwise_cars_h2_pca
+```
+
+## k-means clustering
+
+Running k-means seems straightforward enough. We can examine plots, both of the original data and the pca projections to see what we think of the solution.
+
+```{r kmeansclusters, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(pairwise_cars_k2)
+pairwise_cars_k2
+```
+
+```{r pcawithkmeansclusters, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(pairwise_cars_k2_pca)
+pairwise_cars_k2_pca
+```
+
+One aid to choosing an appropriate number of clusters with k-means is the so-called elbow plot
+
+```{r elbow, echo = FALSE, warning=FALSE, message=FALSE}
+targets::tar_load(cars_elbows)
+plot(1:kmax, cars_elbows, type = "b",
+     xlab = "Number of clusters (k)",
+     ylab = "Total within-cluster sum of squares (WSS)",
+     main = "Elbow method for k-means")
+```
+
+This seems to support a 2 or 3 cluster solution.
+
+
+Notes on the two cluster size metrics:
+
+- WSS (elbow)	k-means	compactness (variance within clusters)	Find where adding clusters stops improving compactness significantly
+- Silhouette	any clustering (hierarchical, k-means, etc.)	cohesion + separation	Find where clusters are well-separated + compact
