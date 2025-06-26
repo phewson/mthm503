@@ -29,3 +29,16 @@ load_data <- function() {
   DBI::dbDisconnect(con)
   df
 }
+
+load_bike_hire_data <- function() {
+  con <- get_db_connection()
+
+  sql_text <- "
+    SELECT *
+    FROM bike_hire
+  "
+  df <- DBI::dbGetQuery(con, sql_text)
+
+  DBI::dbDisconnect(con)
+  df
+}

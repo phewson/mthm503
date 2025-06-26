@@ -1,0 +1,93 @@
+---
+title: "Regression summary"
+author: "Paul Hewson"
+date: "2025-06-26"
+output: html_document
+---
+
+We had three exercises to do this week, to make sure we had reviewed all the topics needed for the coursework.
+
+## Exercise 1: Multiple comparisons
+
+First of all, we looked at multiple comparisons.  This is based on a problem in Appendix E of the course textbook
+
+First of all, let's check that we have a valid model by looking at the residuals:
+
+```{r plotmhmodel, echo = FALSE, message=FALSE, warning=FALSE}
+targets::tar_load(mh_model)
+par(mfrow = c(2,2))
+plot(mh_model)
+```
+
+Then we can look at the parameter estimates:
+
+```{r summarymhmodel, echo = FALSE, message = FALSE, warning = FALSE, results = 'verbatim'}
+summary(mh_model)
+```
+
+The adjusted R-squared is 0.48 which is tolerable for these kinds of data.  This is the default model set up in R, with the default contrasts for the factors. We have two factor levels, *cocaine* (a level of *substance*) and *heroin* (another level of *substance*). By default, the base level is *alchohol*, and these factors tell us the difference between cocaine and base level and heroin and base level. But what if we wanted to compare cocaine and heroin.
+
+This is where it's useful to use additional methods, in our case the `emmeans` package (there are several other ways of doing this)
+
+```{r multcontrasts, echo = TRUE, results = 'verbatim', message = FALSE, warning = FALSE}
+library(emmeans)
+model_adjusted <- emmeans(mh_model, ~substance)
+contrast(model_adjusted, method = "pairwise", adjust = "tukey")
+```
+
+It can be helpful to plot these.
+
+```{r plotcontrasts, echo = TRUE, message = FALSE, warning = FALSE}
+par(mfrow = c(1,1))
+plot(model_adjusted, comparisons = TRUE)
+```
+
+After all that, the confidence intervals for cocaine and heroin overlap.
+
+
+## Exercise 2: Smooth Functions
+
+This was partly a check we could connect to the database, and partly an opportunity to introduce the idea of a smooth function.
+
+```{r biketrend, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(simpletrend)
+simpletrend
+```
+```{r biketemps, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(temphire)
+temphire
+```
+
+```{r bikeweekday, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(weekday)
+weekday
+```
+
+```{r bikeseason, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(season)
+season
+```
+
+```{r bikehumidity, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(humidity_windspeed)
+humidity_windspeed
+```
+
+So the idea of a smooth function is that sometimes it's too simple to estimate a simple coefficient (which implies a straightline relationship between two variables).  We can obtain the model summary which should look familiar:
+
+```{r bikegamsummary, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(simple_gam)
+summary(simple_gam)
+```
+
+But the model has done this by means of a "smooth function" whereby there is a more complex relationship between time and the number of bike hires.  This is a poisson model (counts) with a log link, so the $y$ axis of the chart tells us how much to adjust the linear predictor as time evolves. The $x$ axis is time reducted to integers. At the highest point (towards the right) the smooth function has a value close to 0.5. If we take $exp(0.5)$ we get 1.648, so we multiply the intercept value by 1.648 to help build our estimate of the number of cyclists at this time.  Likewise, the lowest value is on the right, close to -1.5, so if we take $exp(-1.5)$ we get 0.22, so almost five times lower than the value at the intercept.
+
+```{r bikegamplot, echo = FALSE, warning= FALSE, message = FALSE}
+targets::tar_load(simple_gam)
+plot(simple_gam)
+```
+
+
+
+
+
