@@ -5,7 +5,7 @@ library(here)
 source(here("R", "functions.R"))
 source(here("R", "load_data.R"))
 source(here("R", "utils.R"))
-source(here("R", "clustering.R"))
+source(here("R", "regression.R"))
 
 tar_option_set(packages = c("dplyr", "DBI", "RPostgres"))
 
@@ -27,63 +27,67 @@ list(
     "vignettes/Report.Rmd"
   ),
   tar_target(
-    car_df,
-    get_car_data()
+    pre_bike_hire,
+    load_bike_hire_data()
   ),
   tar_target(
-    pairwise_cars,
-    pairwise_scatterplot(car_df[, 4:8])
+    bike_hire,
+    create_dtg(pre_bike_hire)
   ),
   tar_target(
-    car_dist,
-    get_distance_matrix(car_df[, 4:8], car_df$model)
+    simpletrend,
+    plot_simpletrend(bike_hire)
   ),
   tar_target(
-    car_hclust,
-    get_hclust(car_dist)
+    temphire,
+    plot_temphire(bike_hire)
   ),
   tar_target(
-    car_hclust_groups,
-    cut_hclust(car_hclust, 2)
+    weekday,
+    plot_weekday(bike_hire)
   ),
   tar_target(
-    pairwise_cars_clust2,
-    pairwise_scatterplot_clusters(car_df[,4:8], as.factor(car_hclust_groups))
+    season,
+    plot_season(bike_hire)
   ),
   tar_target(
-    silhouettes,
-    sil_plot(car_hclust, car_dist, 10)
+    humidity_windspeed,
+    plot_humidity_windspeed(bike_hire)
   ),
   tar_target(
-    cars_kmeans_2,
-    apply_kmeans(car_df[, 4:8], 2)
+    simple_gam,
+    fit_simple_gam(bike_hire)
   ),
   tar_target(
-    cars_elbows,
-    elbow_plot(car_df[, 4:8], 10)
+    final_gam,
+    fit_final_gam(bike_hire)
   ),
   tar_target(
-    pairwise_cars_k2,
-    pairwise_scatterplot_clusters(car_df[,4:8], as.factor(cars_kmeans_2$cluster))
+    insurance,
+    get_insurance_data()
   ),
   tar_target(
-    cars_pca,
-    fit_pca(car_df[, 4:8], car_df$model)
+    claims,
+    plot_claims(insurance)
   ),
   tar_target(
-    cars_scores,
-    pca_scores(cars_pca)
+    claim_rate,
+    plot_claim_rate(insurance)
   ),
   tar_target(
-    pairwise_cars_k2_pca,
-    pairwise_scatterplot_clusters(cars_scores[, 1:2], as.factor(cars_kmeans_2$cluster))
+    fit_offset_model,
+    fit_glm_with_offset(insurance)
   ),
   tar_target(
-    pairwise_cars_h2_pca,
-    pairwise_scatterplot_clusters(cars_scores[, 1:2], as.factor(car_hclust_groups))
+    helprct,
+    get_helprct()
+  ),
+  tar_target(
+    mh_model,
+    fit_mh_score(helprct)
   ),
   tar_render(
-    unsupervised_report,
-    "vignettes/unsupervised.Rmd"
+    regression_report,
+    "vignettes/regression.Rmd"
   )
 )
