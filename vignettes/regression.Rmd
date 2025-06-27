@@ -5,7 +5,7 @@ date: "2025-06-26"
 output: html_document
 ---
 
-We had three exercises to do this week, to make sure we had reviewed all the topics needed for the coursework.
+We had three exercises to do this week, to make sure we had reviewed all the topics needed for the coursework.  As with the other weeks, the targets pipeline and all associated material to create this report are in a branch on the course repository [https://github.com/phewson/mthm503/tree/regression](https://github.com/phewson/mthm503/tree/regression)
 
 ## Exercise 1: Multiple comparisons
 
@@ -87,7 +87,36 @@ targets::tar_load(simple_gam)
 plot(simple_gam)
 ```
 
+## Insurance Data
+
+The final exercise involved an inbuilt dataset on Insurance claims.  First, we can look at the claims made:
+
+```{r plotclaims, echo=FALSE, warning=FALSE, message = FALSE}
+targets::tar_load(claims)
+```
+
+We see that most claims arise in the over 35 group. Sometimes we want to know this. But other times we want to know about the rate. There are also more over 35 policy holders.  So we might be interested in looking at the rate of claims per policy holder.  A visual of this is as follows:
 
 
+```{r plotclaimrate, echo=FALSE, warning=FALSE, message = FALSE}
+targets::tar_load(claim_rate)
+```
 
+
+As discussed, we can model this rate parameter using a Poisson model with an offset.  First of all, checking on our model assumptions:
+
+```{r fitclaimrate, echo = FALSE, warning=FALSE, message = FALSE}
+targets::tar_load(fit_offset_model)
+par(mfrow = c(2, 2))
+plot(fit_offset_model)
+```
+
+And then we can move to interpreting the model fit:
+
+```{r claimratemodel, echo = TRUE, results='verbatim'}
+summary(fit_offset_model)
+```
+
+
+The point to note being that $\lambda_i$ is no longer telling the expected number of counts for cell $i$, but rather the expected rate of claims per policy holder for cell $i$.
 
