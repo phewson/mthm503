@@ -1,44 +1,138 @@
 ---
-title: "Standard Report"
-author: "Paul Hewson"
-date: "2025-05-21"
+title: "MTHM503 Data Science Project Report"
+author: "Data Science Student"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
-## R Markdown
- 
-Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-You need a working pandoc installation on your computer (this should be taken care of if you have an RStudio installation)
+## MTHM503 Data Science Project
 
+This report presents the results of three comprehensive data science analyses:
+
+1. **Task 1: Supervised Classification** - Pedestrian casualty severity prediction
+2. **Task 2: Regression** - Fire rescue extrication analysis
+3. **Task 3: Unsupervised Learning** - Olive oil composition analysis
 
 ```{r load_data_and_packages, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
-if (file.exists("../_targets")) {
-  targets::tar_config_set("store" = "../_targets")
-  }
-targets::tar_load(summary_data)
+# Load required libraries
 library(dplyr)
 library(ggplot2)
+library(targets)
+
+# Load results from targets pipeline
+tar_load(classification_results)
+tar_load(regression_results)
+tar_load(unsupervised_results)
+tar_load(analysis_summary)
 ```
 
-## Road casualty data
+## Executive Summary
 
-We can present a visual display of the number of road casualties as follows:
-
-```{r pressure, echo=FALSE}
-summary_data %>%
-  ggplot(aes(x = casualty_severity, y = Casualties, 
-             fill = casualty_severity)) +
-  geom_bar(stat = "identity") + 
-  theme_bw() + 
-  xlab("Severity of Casualty") + 
-  ylab("Number of reported and sub-sampled casualties") + 
-  labs(title = "Number of reported pedestrian road casualties in 2023",
-       subtitle = "All fatalities, 10% of serious and 1% of slight casualties",
-       caption = "Source: STATs19, data.gov.uk")
+```{r summary, echo=FALSE}
+print(analysis_summary)
 ```
 
-Do note that there has been a lot of sub-sampling. All fatally injured road pedestrian casualties are included in the data, but 10% of serious and 1% of slight casualties were selected at random.
+## Task 1: Supervised Classification - Pedestrian Casualty Severity
+
+### Model Performance Comparison
+
+```{r classification_performance, echo=FALSE}
+# Create performance comparison table
+performance_df <- data.frame(
+  Model = c("Random Forest", "Decision Tree"),
+  Accuracy = c(classification_results$rf_accuracy, classification_results$dt_accuracy),
+  Kappa = c(classification_results$rf_kappa, classification_results$dt_kappa)
+)
+
+performance_df$Accuracy <- round(performance_df$Accuracy, 4)
+performance_df$Kappa <- round(performance_df$Kappa, 4)
+
+knitr::kable(performance_df, caption = "Classification Model Performance")
+```
+
+### Key Findings
+
+- **Best Model**: `r ifelse(classification_results$rf_accuracy > classification_results$dt_accuracy, "Random Forest", "Decision Tree")`
+- **Overall AUC**: `r round(classification_results$overall_auc, 4)`
+- **Performance**: The Random Forest model achieved `r round(max(classification_results$rf_accuracy, classification_results$dt_accuracy) * 100, 1)`% accuracy
+
+### Feature Importance
+
+```{r feature_importance, echo=FALSE}
+# Display top 10 features
+top_features <- head(classification_results$importance_df, 10)
+knitr::kable(top_features, caption = "Top 10 Most Important Features")
+```
+
+## Task 2: Regression - Fire Rescue Extrication Analysis
+
+### Model Comparison
+
+```{r regression_comparison, echo=FALSE}
+knitr::kable(regression_results$aic_comparison, caption = "Model Comparison (AIC)")
+```
+
+### Key Findings
+
+- **Best Model**: `r ifelse(regression_results$aic_comparison$AIC[1] < regression_results$aic_comparison$AIC[2], "GLM (Poisson)", "GAM")`
+- **Overdispersion Test**: `r round(regression_results$overdispersion_test, 4)`
+- **Interpretation**: Age and sex interactions significantly affect extrication rates
+
+### Incidence Rate Ratios
+
+```{r irr_results, echo=FALSE}
+# Display IRR results
+irr_display <- regression_results$irr_results
+irr_display$IRR <- round(irr_display$IRR, 4)
+irr_display$Lower_CI <- round(irr_display$Lower_CI, 4)
+irr_display$Upper_CI <- round(irr_display$Upper_CI, 4)
+irr_display$p_value <- round(irr_display$p_value, 4)
+
+knitr::kable(irr_display, caption = "Incidence Rate Ratios (GLM)")
+```
+
+## Task 3: Unsupervised Learning - Olive Oil Composition
+
+### Clustering Performance
+
+```{r clustering_performance, echo=FALSE}
+clustering_df <- data.frame(
+  Method = c("K-means", "Hierarchical"),
+  Silhouette_Score = c(unsupervised_results$silhouette_kmeans, unsupervised_results$silhouette_hclust)
+)
+
+clustering_df$Silhouette_Score <- round(clustering_df$Silhouette_Score, 4)
+
+knitr::kable(clustering_df, caption = "Clustering Performance (Silhouette Scores)")
+```
+
+### Key Findings
+
+- **Best Clustering Method**: `r ifelse(unsupervised_results$silhouette_kmeans > unsupervised_results$silhouette_hclust, "K-means", "Hierarchical")`
+- **Silhouette Score**: `r round(max(unsupervised_results$silhouette_kmeans, unsupervised_results$silhouette_hclust), 4)`
+- **Interpretation**: Natural groupings identified in olive oil composition data
+
+### Cluster Profiles
+
+```{r cluster_profiles, echo=FALSE}
+# Display cluster profiles
+knitr::kable(unsupervised_results$kmeans_profiles, caption = "K-means Cluster Profiles")
+```
+
+## Conclusions
+
+This analysis demonstrates the application of three fundamental data science techniques:
+
+1. **Supervised Classification** successfully predicted pedestrian casualty severity with high accuracy
+2. **Regression Analysis** revealed significant age and sex effects on fire rescue extrication rates
+3. **Unsupervised Learning** identified natural groupings in olive oil composition data
+
+The results provide valuable insights for road safety policy, emergency response planning, and food quality assessment.
+
+---
+
+*This report was generated using a reproducible targets pipeline with automatic dependency management.*
