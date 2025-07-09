@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
 # =============================================================================
-# MTHM503 Simple Analysis Runner
+# Simple Analysis Runner
 # =============================================================================
 
 # Clear workspace
@@ -15,7 +15,7 @@ library(ggplot2)
 # Set working directory
 setwd(here())
 
-cat("=== MTHM503 Data Science Analysis ===\n")
+cat("=== Data Science Analysis ===\n")
 
 # Source all functions
 source("R/functions.R")
