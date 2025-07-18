@@ -9,22 +9,17 @@ library(lubridate)
 library(broom)
 library(ggplot2)
 library(tidyr)
-# Now takes two arguments, passed from targets
-# R/task2_regression.R (modified)
-# Updated version: accepts arguments from targets
-# R/load_data.R veya R/task2_regression.R içinde
-# R/load_data.R içinde yer almalı
+ 
 load_extrication_data <- function(fire_data, year_data) {
   
-  cat("📌 Step 1: Original fire_data:\n")
+  cat(" Step 1: Original fire_data:\n")
   print(head(fire_data))
   print(str(fire_data))
   
-  cat("📌 Step 2: Original year_data:\n")
+  cat(" Step 2: Original year_data:\n")
   print(head(year_data))
   print(str(year_data))
   
-  # Yıllık özet tablo
   year_summary <- year_data %>%
     group_by(financial_year) %>%
     summarise(
@@ -32,7 +27,7 @@ load_extrication_data <- function(fire_data, year_data) {
       .groups = "drop"
     )
   
-  cat("✅ Step 3: Year summary (after summarise):\n")
+  cat("Step 3: Year summary (after summarise):\n")
   print(year_summary)
   
   counted_fire <- fire_data %>%
@@ -41,15 +36,13 @@ load_extrication_data <- function(fire_data, year_data) {
     summarise(extrications = sum(n_casualties), .groups = "drop")
   
   
-  cat("✅ Step 4: Counted fire data (summed extrications):\n")
+  cat("Step 4: Counted fire data (summed extrications):\n")
   print(head(counted_fire))
   
-  # Join # 🔄 1. Extrication verisini filtrele ve n_casualties üzerinden topla
 counted_fire <- fire_data %>%
   filter(!is.na(extrication), extrication != "Unknown") %>%
   group_by(financial_year, sex, age_band) %>%
   summarise(extrications = sum(n_casualties), .groups = "drop")
-
 # 🔗 2. Yıllık özetle birleştir
 joined <- counted_fire %>%
   left_join(
@@ -62,26 +55,38 @@ joined <- counted_fire %>%
     by = "financial_year"
   )
 
-# 🔧 3. Dönüşümleri uygula
-df2_clean <- joined %>%
+df2_clean <- joined <- counted_fire %>%
+  left_join(year_summary, by = "financial_year") %>%
   rename(
     collisions_reported = number_of_stat19_reported_casualties,
-    sex_of_casualty = sex,
-    age_band_raw = age_band
+    sex_of_casualty    = sex,
+    age_band_raw       = age_band
   ) %>%
   mutate(
+    # Fix this mapping to match your data
     age_band_of_casualty = case_when(
-      age_band_raw == "0-16" ~ "0-17",
-      age_band_raw %in% c("17-24", "25-39") ~ "18-34",
-      age_band_raw == "40-64" ~ "35-64",
-      age_band_raw == "65+" ~ "65+",
-      TRUE ~ NA_character_
+      age_band_raw == "0-17"           ~ "0-17",
+      age_band_raw %in% c("18-34")     ~ "18-34",
+      age_band_raw == "35-64"          ~ "35-64",
+      age_band_raw == "65+"            ~ "65+",
+      TRUE                              ~ NA_character_
     ),
     rate = extrications / collisions_reported,
-    sex_of_casualty = factor(sex_of_casualty),
-    age_band_of_casualty = factor(age_band_of_casualty, levels = c("0-17", "18-34", "35-64", "65+"))
-  ) %>%
+    sex_of_casualty      = factor(sex_of_casualty),
+    age_band_of_casualty = factor(
+      age_band_of_casualty,
+      levels = c("0-17", "18-34", "35-64", "65+")
+    )
+  )
+
+# Now inspect before dropping:
+print(table(joined$age_band_raw, useNA="always"))
+print(table(joined$age_band_of_casualty, useNA="always"))
+
+# Only then drop:
+df2_clean <- joined %>%
   drop_na(sex_of_casualty, age_band_of_casualty)
+
 
 # 📊 4. Kontroller
 cat("✅ Extrications dağılımı:\n")

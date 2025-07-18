@@ -54,7 +54,7 @@ task1_rf_varimp <- function(rf_model) {
 }
 
 # 4) Select top-N features by importance
-task1_select_top_features <- function(rf_model, n = 20) {
+task1_select_top_features <- function(rf_model, n = 5) {
   imp <- task1_rf_varimp(rf_model)
   names(imp)[seq_len(min(n, length(imp)))]
 }
