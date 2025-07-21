@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # MTHM053 - Applications of Data Science and Statistics
 
 **University of Exeter**  
@@ -8,7 +8,7 @@
 **Author**: Pooja Sajeevan K K  
 **Repository**: https://github.com/IDK20IT032/mthm503
 
----
+
 
 ## Project Overview
 
