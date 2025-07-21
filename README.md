@@ -21,13 +21,6 @@ This repository contains the data, code, and documentation for the MTHM053 cours
 
 ---
 
-## Repository Structure
-
-```
-
-```
-
----
 
 ## Getting Started
 
@@ -96,15 +89,7 @@ This repository contains the data, code, and documentation for the MTHM053 cours
 
 ---
 
-## Reproducibility
 
-- **Workflow**: Managed via `targets` for automation and dependency tracking.
-- **Environment**: Locked with `renv` to ensure consistent package versions.
-- **Testing**: Includes unit tests with `testthat` for critical data and model steps.
-- **Version Control**: Regular commits to Git; full history available.
-- **Continuous Integration**: GitHub Actions enforce code quality (linting, testing).
-
----
 
 
 
