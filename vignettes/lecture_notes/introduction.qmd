@@ -1,0 +1,123 @@
+---
+title: "Applications of Data Science and Statistics"
+author: "Paul Hewson"
+format:
+  revealjs:
+    self-contained: true
+    theme: default
+    logo: logo.png
+    footer: "MTHM503 Applications of Data Science"
+---
+
+# Module formalities
+
+## Description
+
+[Module information](https://www.exeter.ac.uk/study/studyinformation/modules/info/?moduleCode=MTHM503&ay=2024/5&sys=1)
+
+:::{.callout-note}
+
+This module will enable you to learn new Data Science and Statistical methods, and to use the techniques learnt in other modules, by working on analyses of real data examples. There will be a strong emphasis throughout on understanding the practical application of statistical and machine learning methods including clustering, data reduction, methods for handling missing data, study design and introductory methods for time series data. Theory and ideas will be developed to allow the implementation of methods in examples drawn from industry, medicine, finance, public health and environmental challenges, including climate change and air pollution.
+:::
+
+
+## Aims {.smaller}
+
+:::{.callout-note }
+The aim of this module is to practice the use of Data Science and Statistical modelling by working through a series of case studies. The case studies will be based on real-life problems and will start with a description of the setting of the problem and the intended outcomes. One of the important things in any statistical analysis is to understand the background to the problem and, for each case study, there will be a review the field in which it is set. Analyses will start with raw data that will have to be sense-checked and manipulated into a form that is suitable for the intended analyses. Deciding on the exact form of the analyses in each case will be a central focus of this module and an important aim of this module will be developing the skills to make decisions in this regard, drawing on information from the setting, the exact nature of the problem being assessed and knowledge of the techniques and methods that are available. In each case study, the results of the chosen form of analyses will be interpreted, with particular attention given to the best way of communicating the results to a variety of technical and non-technical audiences.
+:::
+
+## Learning outcomes 1-3 of 10
+
+
+1. Apply data science and statistical methods using real-world examples
+2. Apply new techniques learnt through case studies to other datasets to answer questions in other applications
+3. Implement machine learning and regression techniques using R/RStudio
+
+## Learning outcomes 4-7 of 10
+
+4. Select the most appropriate method(s) that should be used based on an understanding of the problem being addressed
+5. Understand the potential issues associated with using data science and statistical methodology in real-world settings
+6. Apply a range of data analysis skills to address real-world problems
+7. Use R/RStudio and other software to manipulate and summarise data
+
+
+
+## Learning outcomes 8-10 of 10
+
+8. Use learning resources effectively
+9. Communicate the results of data analysis clearly and accurately, both in writing and verbally.Communicate the results of data analysis clearly and accurately, both in writing and verbally.
+10. Formulate real-world problems in a manner that enables statistical and data science methods to be used to answer questions
+
+
+## Adopted Book
+
+B. Baumer, D. Kaplan and N.J. Horton (2021) "Modern Data Science with R (2nd Edition)" Chapman Hall / CRC Press
+
+
+The book is also available online: [Second edition](https://mdsr-book.github.io/mdsr2e/) and [Third edition](https://mdsr-book.github.io/mdsr3e/)
+
+
+
+
+## About me
+
+- Worked for over ten years at [University of Plymouth](https://www.advance-he.ac.uk/awards/teaching-excellence-awards/national-teaching-fellowship/winners), including a secondment to the Royal Statistical Society Centre for Statistical Education
+- Spent over ten years teaching a Master's short course at the [University of Bologna](https://corsi.unibo.it/2cycle/lmec)
+- Taught at the [African Institute of Mathematical Sciences](https://nexteinstein.org/)
+- More recently, spent 3 years at [City Science](https://cityscience.com/) and nearly 3 years at [Overleaf](https://www.overleaf.com)
+
+
+## Therefore:
+
+- I am very interested in the industrial/commercial application of data science.  
+- And the tools you need to do that in a team/professional environment.
+
+
+
+# Module Plan
+
+
+## Plan {.smaller}
+
+- Week 6 (w/c 2nd June 2025)	   	 Course outline. Basic programming and data science tools.  Explanatory Data Analysis and Data Visualisation
+- Week 7 (w/c 9th June 2025)
+	 	Unsupervised Learning. Clustering
+- Week 8 (w/c 16th June 2025)		 Supervised Learning. Dimensionality Reduction
+- Week 9 (w/c 23 June 2025)	 	 Regression analysis
+- Week 10 (w/c 30 June 2025)	  	 No scheduled contact
+- Week 11 (w/c 7th July 2025)	  	 In-class assessment and introduction of coursework assessment
+
+
+## Teaching
+
+- All content will also be available on the module site or the adopted book
+- There will be three lectures, providing some headline information
+- Book exercises are important
+- Drop in sessions are for you to ask questions (there should be questions from the practical exercises)
+- Practicals will cover more directed exercises
+- Use the forum to post questions
+
+# This week
+
+## This week: all about tooling
+
+- `git` (and GitHub); version control, project management, testing
+- `lintr`; static code checks
+- `targets`; robust data pipelines
+- `renv`; to make sure our code runs on other computers
+- `SQL`; in "production" you don't pass round csv files
+
+
+
+## Tooling
+
+- All of these topics have explainer videos in the ELE site. Please watch them and ask questions in the forum. There should be a few questions.
+- On Wednesday, we can make sure all the tooling works in your hands. We may need to apply a few workarounds ^[for example port 5432 is not open on university virtual machines, so we need another method for accessing the database if you are going to use a virtual machine]
+- The text book exercises have been chosen to be relevant for this course.
+
+## Questions
+
+- If you don't want to ask now, please post in the forum and bring some questions along to the session on Wednesday
+- If you are really really stuck, try [p.hewson2@exeter.ac.uk](mailto:p.hewson2@exeter.ac.uk) but do note I am 0.8FTE
+

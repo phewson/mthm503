@@ -1,0 +1,61 @@
+---
+title: "Feedback and Marking for MTHM503 (Applications of Data Science and Statistics) extended coursework"
+author: "Paul Hewson"
+date: "2025-07-21"
+output: html_document
+params:
+  student_number: NULL
+  supervised_score: NULL
+  supervised_comment: NULL
+  supervised_grade: NULL
+  regression_score: NULL
+  regression_comment: NULL
+  regression_grade: NULL
+  unsupervised_score: NULL
+  unsupervised_comment: NULL
+  unsupervised_grade: NULL
+  repro_score: NULL
+  repro_comment: NULL
+  repro_grade: NULL
+---
+
+```{r echo = FALSE}
+scores <- c(params$supervised_score, params$regression_score, params$unsupervised_score, params$repro_score)
+final_mark <- round(mean(scores), 1)
+
+grade <- cut(final_mark, breaks = c(-Inf, 49.9, 59.9, 69.9, 100),
+             labels = c("Fail (<50%)", "Third (50–59%)", "2:2 (60–69%)", "First (70–100%)"))
+
+
+```
+
+
+Feedback for `r sprintf("%06d", params$student_number)`; Overall mark `r final_mark`%
+--------------------------------------------------
+
+
+## Supervised Classification (25% weighting) Score: `r params$supervised_score`%
+
+*This work has been assessed to match the following grade descriptor*: `r params$supervised_grade`
+
+**Comment**: `r params$supervised_comment`
+
+
+
+## Regression Task (25% weighting) Score: `r params$regression_score`%
+
+*This work has been assessed to match the following grade descriptor*: `r params$regression_grade`
+
+**Comment**: `r params$regression_comment`
+
+## Unsupervised Learning (25% weighting) Score: `r params$unsupervised_score`%
+
+*This work has been assessed to match the following grade descriptor*: `r params$unsupervised_grade`
+
+**Comment**: `r params$unsupervised_comment`
+
+## Reproducibility & Workflow (25%) Score: `r params$repro_score`%
+
+*This work has been assessed to match the following grade descriptor*: `r params$repro_grade`
+
+**Comment**: `r params$repro_comment`
