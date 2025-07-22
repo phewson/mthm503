@@ -1,0 +1,1651 @@
+severity,sex,age,light,weather,location
+Slight,Male,36,Daylight,Fine no high winds,Urban
+Serious,Male,37,Daylight,Fine no high winds,Urban
+Slight,Male,2,Darkness - no lighting,Fine high winds,Rural
+Slight,Female,43,Darkness - no lighting,Fine high winds,Rural
+Serious,Male,47,Darkness - no lighting,Fine high winds,Rural
+Serious,Male,46,Darkness - no lighting,Fine high winds,Rural
+Slight,Female,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,49,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,70,Daylight,Fine no high winds,Urban
+Serious,Male,42,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Slight,Female,16,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,66,Daylight,Fine no high winds,Urban
+Serious,Male,20,Darkness - lighting unknown,Fine no high winds,Rural
+Serious,Male,20,Darkness - lighting unknown,Fine no high winds,Rural
+Serious,Male,20,Darkness - lighting unknown,Fine no high winds,Rural
+Fatal,Male,38,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,14,Daylight,Raining no high winds,Rural
+Slight,Female,55,Daylight,Fine no high winds,Rural
+Slight,Female,55,Daylight,Fine no high winds,Urban
+Serious,Female,59,Daylight,Fine no high winds,Urban
+Fatal,Male,44,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,49,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,60,Daylight,Fine no high winds,Urban
+Slight,Male,67,Daylight,Fine no high winds,Urban
+Serious,Female,52,Darkness - lights lit,Unknown,Urban
+Serious,Male,59,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,39,Daylight,Unknown,Urban
+Fatal,Male,38,Daylight,Fine no high winds,Rural
+Fatal,Male,38,Daylight,Fine no high winds,Rural
+Fatal,Male,38,Daylight,Fine no high winds,Rural
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,15,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,54,Daylight,Fine no high winds,Rural
+Slight,Male,58,Daylight,Raining no high winds,Urban
+Slight,Male,88,Daylight,Fine no high winds,Urban
+Serious,Female,86,Daylight,Fine no high winds,Urban
+Slight,Male,21,Daylight,Fine no high winds,Urban
+Slight,Female,3,Daylight,Fine no high winds,Urban
+Slight,Female,3,Daylight,Fine no high winds,Urban
+Slight,Female,3,Daylight,Fine no high winds,Urban
+Slight,Female,25,Daylight,Fine no high winds,Urban
+Slight,Female,25,Daylight,Fine no high winds,Urban
+Slight,Female,25,Daylight,Fine no high winds,Urban
+Fatal,Female,70,Darkness - lights unlit,Fine no high winds,Rural
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Slight,Male,60,Daylight,Fine no high winds,Urban
+Serious,Female,25,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,53,Daylight,Fine no high winds,Urban
+Serious,Male,14,Daylight,Fine no high winds,Urban
+Fatal,Male,28,Darkness - no lighting,Fine no high winds,Urban
+Slight,Male,35,Daylight,Fine no high winds,Urban
+Fatal,Male,75,Daylight,Fine no high winds,Rural
+Fatal,Male,79,Daylight,Fine no high winds,Urban
+Slight,Female,38,Daylight,Fine no high winds,Urban
+Fatal,Male,14,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,81,Daylight,Fine no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Slight,Female,35,Daylight,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Slight,Female,20,Daylight,Raining no high winds,Rural
+Slight,Male,70,Daylight,Unknown,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Slight,Female,48,Daylight,Fine no high winds,Urban
+Slight,Male,25,Daylight,Unknown,Rural
+Serious,Female,69,Daylight,Raining no high winds,Urban
+Serious,Male,38,Daylight,Fine no high winds,Urban
+Serious,Male,38,Daylight,Fine no high winds,Urban
+Serious,Male,15,Daylight,Fine no high winds,Urban
+Slight,Male,65,Daylight,Fine no high winds,Urban
+Slight,Male,53,Daylight,Fine no high winds,Urban
+Slight,Male,39,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Serious,Male,41,Daylight,Fine no high winds,Urban
+Slight,Male,30,Daylight,Fine no high winds,Urban
+Serious,Female,16,Daylight,Raining no high winds,Urban
+Slight,Female,20,Daylight,Fine no high winds,Urban
+Slight,Male,16,Daylight,Fine no high winds,Urban
+Fatal,Male,31,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,15,Daylight,Fine no high winds,Urban
+Fatal,Male,37,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,83,Daylight,Fine no high winds,Urban
+Serious,Female,21,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,18,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,19,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,17,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,5,Daylight,Fine no high winds,Urban
+Slight,Male,37,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,13,Daylight,Fine no high winds,Urban
+Slight,Male,32,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,35,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,44,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,44,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,41,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Serious,Male,74,Daylight,Fine no high winds,Urban
+Fatal,Female,82,Daylight,Fine no high winds,Urban
+Fatal,Female,82,Daylight,Fine no high winds,Urban
+Fatal,Male,35,Daylight,Fine no high winds,Rural
+Serious,Male,29,Daylight,Fine no high winds,Urban
+Slight,Male,10,Daylight,Unknown,Urban
+Fatal,Female,39,Darkness - no lighting,Raining no high winds,Rural
+Serious,Female,9,Daylight,Fine no high winds,Urban
+Serious,Female,82,Daylight,Raining no high winds,Rural
+Fatal,Female,71,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,52,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,12,Daylight,Fine no high winds,Urban
+Slight,Male,57,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,61,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,30,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,18,Daylight,Fine no high winds,Urban
+Slight,Male,51,Daylight,Fine no high winds,Rural
+Fatal,Male,84,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,68,Daylight,Fine no high winds,Urban
+Fatal,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,71,Daylight,Fine no high winds,Urban
+Serious,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,92,Daylight,Fine no high winds,Urban
+Fatal,Male,92,Daylight,Fine no high winds,Urban
+Fatal,Male,36,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,69,Daylight,Fine no high winds,Urban
+Fatal,Male,26,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,66,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,79,Daylight,Fine no high winds,Urban
+Serious,Female,75,Daylight,Raining no high winds,Urban
+Serious,Female,69,Daylight,Fine no high winds,Rural
+Serious,Male,59,Daylight,Raining no high winds,Rural
+Slight,Female,21,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,16,Daylight,Raining high winds,Urban
+Serious,Male,93,Daylight,Fine no high winds,Urban
+Serious,Female,43,Daylight,Fine no high winds,Urban
+Slight,Female,55,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,11,Daylight,Fine no high winds,Urban
+Slight,Male,54,Daylight,Fine no high winds,Urban
+Serious,Female,31,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,52,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,56,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,14,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,12,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,23,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,13,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,22,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,13,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,13,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,56,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,13,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,82,Daylight,Fine no high winds,Urban
+Fatal,Male,82,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Rural
+Slight,Female,11,Daylight,Fine no high winds,Urban
+Slight,Male,30,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,60,Daylight,Fine no high winds,Urban
+Slight,Female,-1,Daylight,Fine no high winds,Urban
+Fatal,Male,18,Daylight,Fine no high winds,Urban
+Fatal,Male,34,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Female,56,Darkness - no lighting,Raining no high winds,Urban
+Fatal,Female,56,Darkness - no lighting,Raining no high winds,Urban
+Fatal,Female,56,Darkness - no lighting,Raining no high winds,Urban
+Slight,Female,16,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Serious,Male,31,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Male,84,Daylight,Fine no high winds,Rural
+Slight,Female,56,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Slight,Female,16,Daylight,Fine no high winds,Urban
+Fatal,Male,64,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,84,Daylight,Fine no high winds,Urban
+Serious,Female,17,Daylight,Raining no high winds,Urban
+Fatal,Female,48,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Fatal,Male,51,Darkness - lights unlit,Raining no high winds,Rural
+Fatal,Male,51,Darkness - lights unlit,Raining no high winds,Rural
+Slight,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,35,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,42,Daylight,Fine no high winds,Rural
+Fatal,Female,86,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Serious,Female,70,Daylight,Fine no high winds,Urban
+Fatal,Male,77,Daylight,Fine no high winds,Urban
+Serious,Male,36,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,13,Daylight,Fine no high winds,Urban
+Serious,Female,13,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,63,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,41,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,43,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,43,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,30,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,30,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,17,Daylight,Raining no high winds,Urban
+Serious,Male,37,Daylight,Fine no high winds,Urban
+Fatal,Male,86,Daylight,Fine high winds,Urban
+Serious,Male,15,Daylight,Fine no high winds,Urban
+Serious,Female,10,Daylight,Fine no high winds,Rural
+Slight,Female,62,Daylight,Fine no high winds,Rural
+Fatal,Male,23,Darkness - lights lit,Raining no high winds,Rural
+Slight,Female,19,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,77,Daylight,Fine no high winds,Rural
+Serious,Female,22,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Female,6,Daylight,Fine no high winds,Urban
+Serious,Male,71,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,74,Daylight,Fine no high winds,Urban
+Slight,Male,30,Daylight,Fine no high winds,Urban
+Slight,Female,49,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Female,33,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,33,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,12,Daylight,Fine no high winds,Urban
+Fatal,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,45,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,28,Daylight,Fine no high winds,Urban
+Slight,Male,5,Daylight,Fine no high winds,Urban
+Fatal,Male,43,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,59,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,18,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,57,Daylight,Fine no high winds,Rural
+Slight,Female,12,Daylight,Fine no high winds,Rural
+Fatal,Female,28,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,3,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,55,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,55,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,89,Daylight,Fine no high winds,Urban
+Fatal,Female,89,Daylight,Fine no high winds,Urban
+Fatal,Female,89,Daylight,Fine no high winds,Urban
+Fatal,Female,89,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Slight,Male,66,Daylight,Fine no high winds,Urban
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,88,Daylight,Fine no high winds,Urban
+Serious,Female,88,Daylight,Fine no high winds,Urban
+Serious,Female,88,Daylight,Fine no high winds,Urban
+Serious,Female,88,Daylight,Fine no high winds,Urban
+Serious,Female,56,Daylight,Fine no high winds,Urban
+Slight,Male,47,Daylight,Fine no high winds,Urban
+Slight,Female,9,Daylight,Fine no high winds,Urban
+Fatal,Male,45,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,45,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Daylight,Raining no high winds,Urban
+Fatal,Male,43,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,32,Daylight,Fine no high winds,Urban
+Serious,Male,49,Daylight,Fine no high winds,Rural
+Serious,Male,49,Daylight,Fine no high winds,Rural
+Serious,Male,71,Darkness - lights lit,Fine high winds,Urban
+Slight,Male,38,Daylight,Fine no high winds,Urban
+Serious,Male,12,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,37,Daylight,Fine no high winds,Urban
+Slight,Female,48,Daylight,Other,Urban
+Slight,Male,29,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,79,Daylight,Fine no high winds,Urban
+Fatal,Female,66,Daylight,Fine no high winds,Urban
+Serious,Female,20,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,79,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,38,Daylight,Fine no high winds,Urban
+Serious,Female,24,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Female,48,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,0,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,34,Daylight,Fine no high winds,Urban
+Slight,Male,8,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Male,15,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Serious,Male,42,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,71,Daylight,Fine no high winds,Urban
+Fatal,Male,53,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,35,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Serious,Male,63,Daylight,Fine no high winds,Urban
+Slight,Female,36,Daylight,Raining no high winds,Urban
+Fatal,Male,78,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,69,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,80,Darkness - lights lit,Fine no high winds,Rural
+Serious,Female,58,Daylight,Fine no high winds,Urban
+Slight,Female,76,Daylight,Fine no high winds,Urban
+Serious,Male,4,Daylight,Fine no high winds,Urban
+Fatal,Male,8,Daylight,Fine no high winds,Urban
+Serious,Female,21,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,74,Daylight,Fine no high winds,Rural
+Slight,Male,11,Daylight,Raining no high winds,Rural
+Fatal,Male,50,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,27,Daylight,Fine no high winds,Rural
+Slight,Male,38,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,31,Daylight,Fine no high winds,Urban
+Slight,Male,80,Daylight,Fine no high winds,Urban
+Slight,Male,51,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,15,Daylight,Fine high winds,Urban
+Fatal,Male,59,Darkness - lights lit,Raining high winds,Rural
+Slight,Female,46,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,63,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,63,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,63,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,46,Darkness - no lighting,Raining high winds,Rural
+Serious,Female,88,Daylight,Other,Urban
+Slight,Female,32,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,-1,Daylight,Fine no high winds,Urban
+Fatal,Male,68,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,68,Darkness - no lighting,Raining no high winds,Rural
+Serious,Female,29,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,64,Daylight,Fine no high winds,Urban
+Serious,Male,22,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,34,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,34,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,3,Daylight,Fine no high winds,Urban
+Slight,Female,5,Daylight,Unknown,Urban
+Slight,Female,9,Daylight,Unknown,Urban
+Serious,Female,4,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Rural
+Serious,Male,44,Daylight,Fine no high winds,Urban
+Serious,Male,44,Daylight,Fine no high winds,Urban
+Serious,Male,44,Daylight,Fine no high winds,Urban
+Serious,Female,48,Daylight,Fine high winds,Rural
+Serious,Female,53,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,31,Darkness - no lighting,Raining no high winds,Rural
+Slight,Female,26,Daylight,Fine no high winds,Rural
+Serious,Female,40,Daylight,Fine no high winds,Urban
+Fatal,Male,63,Daylight,Fine no high winds,Rural
+Fatal,Male,67,Daylight,Fine no high winds,Rural
+Serious,Female,75,Daylight,Fine no high winds,Urban
+Serious,Female,75,Daylight,Fine no high winds,Urban
+Serious,Female,75,Daylight,Fine no high winds,Urban
+Serious,Female,75,Daylight,Fine no high winds,Urban
+Fatal,Male,24,Daylight,Fine no high winds,Urban
+Fatal,Female,78,Daylight,Fine no high winds,Urban
+Slight,Male,50,Daylight,Raining no high winds,Urban
+Slight,Male,47,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,47,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,47,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,47,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,35,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,55,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,58,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,10,Daylight,Fine no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Slight,Female,16,Darkness - lights unlit,Fine no high winds,Urban
+Fatal,Male,79,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,5,Daylight,Fine no high winds,Urban
+Slight,Male,37,Daylight,Fine no high winds,Urban
+Fatal,Female,35,Darkness - lights lit,Fine high winds,Urban
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,-1,Daylight,Fine no high winds,Urban
+Serious,Female,6,Daylight,Fine no high winds,Urban
+Fatal,Female,35,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,24,Daylight,Fine no high winds,Urban
+Serious,Female,42,Daylight,Fine no high winds,Rural
+Serious,Male,84,Daylight,Raining no high winds,Rural
+Fatal,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,37,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,7,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,39,Darkness - lights lit,Fine no high winds,Rural
+Serious,Female,20,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,50,Daylight,Fine no high winds,Urban
+Fatal,Female,78,Daylight,Fine no high winds,Urban
+Serious,Male,15,Daylight,Fine no high winds,Urban
+Serious,Female,16,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,15,Daylight,Fine no high winds,Urban
+Serious,Female,61,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,27,Daylight,Fine no high winds,Urban
+Serious,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,45,Daylight,Fine no high winds,Rural
+Slight,Male,5,Daylight,Fine no high winds,Urban
+Fatal,Male,28,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Female,80,Daylight,Fine no high winds,Urban
+Fatal,Male,74,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,62,Daylight,Raining no high winds,Urban
+Slight,Female,54,Daylight,Raining no high winds,Urban
+Slight,Female,47,Daylight,Raining no high winds,Urban
+Serious,Female,9,Daylight,Fine no high winds,Urban
+Slight,Female,30,Daylight,Fine no high winds,Urban
+Slight,Male,2,Darkness - lights lit,Other,Urban
+Serious,Male,8,Daylight,Fine no high winds,Urban
+Slight,Female,87,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,-1,Daylight,Fine no high winds,Urban
+Serious,Male,26,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,8,Darkness - lights lit,Other,Urban
+Slight,Female,75,Daylight,Fine no high winds,Urban
+Serious,Female,72,Daylight,Fine no high winds,Urban
+Slight,Female,26,Daylight,Raining no high winds,Urban
+Slight,Male,24,Daylight,Fine no high winds,Urban
+Slight,Female,25,Daylight,Fine no high winds,Urban
+Fatal,Male,79,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,51,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,12,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,57,Daylight,Fine no high winds,Urban
+Slight,Female,21,Daylight,Fine no high winds,Urban
+Fatal,Male,23,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,42,Daylight,Fine no high winds,Urban
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Fatal,Male,46,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,39,Daylight,Fine no high winds,Urban
+Serious,Male,4,Daylight,Fine no high winds,Rural
+Fatal,Female,94,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Fatal,Male,54,Daylight,Fine no high winds,Urban
+Serious,Male,43,Daylight,Fine no high winds,Urban
+Serious,Male,48,Daylight,Fine no high winds,Urban
+Serious,Male,48,Daylight,Fine no high winds,Urban
+Serious,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,73,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,91,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,26,Daylight,Fine no high winds,Urban
+Slight,Female,29,Daylight,Fine no high winds,Rural
+Slight,Male,22,Daylight,Fine no high winds,Rural
+Slight,Male,28,Daylight,Fine no high winds,Rural
+Slight,Female,31,Daylight,Fine no high winds,Rural
+Fatal,Male,43,Darkness - lights lit,Raining high winds,Urban
+Serious,Male,15,Daylight,Other,Urban
+Serious,Female,37,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,42,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,7,Daylight,Fine no high winds,Urban
+Fatal,Male,60,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,75,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,69,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,12,Daylight,Other,Urban
+Fatal,Male,69,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,69,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,63,Daylight,Fine no high winds,Urban
+Serious,Female,89,Daylight,Fine no high winds,Rural
+Serious,Female,77,Daylight,Fine no high winds,Urban
+Serious,Male,20,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,66,Daylight,Fine no high winds,Urban
+Fatal,Male,28,Darkness - lights lit,Fine high winds,Urban
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Fatal,Male,34,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,16,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,27,Daylight,Fine no high winds,Urban
+Fatal,Male,43,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,34,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,34,Darkness - no lighting,Raining no high winds,Rural
+Slight,Male,48,Daylight,Fine no high winds,Urban
+Fatal,Male,38,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,22,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,51,Daylight,Fine no high winds,Urban
+Serious,Female,51,Daylight,Fine no high winds,Urban
+Serious,Female,51,Daylight,Fine no high winds,Urban
+Fatal,Male,37,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,17,Daylight,Fine no high winds,Urban
+Slight,Female,5,Daylight,Fine no high winds,Urban
+Slight,Male,26,Daylight,Fine no high winds,Urban
+Fatal,Female,83,Daylight,Raining no high winds,Urban
+Serious,Male,58,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,16,Daylight,Fine no high winds,Urban
+Slight,Female,47,Daylight,Fine no high winds,Urban
+Slight,Male,70,Daylight,Fine no high winds,Urban
+Slight,Female,40,Daylight,Fine no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,78,Daylight,Fine no high winds,Urban
+Serious,Male,73,Daylight,Fine no high winds,Rural
+Serious,Female,17,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,18,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,80,Daylight,Fine no high winds,Rural
+Slight,Female,42,Daylight,Fine no high winds,Urban
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Slight,Male,19,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Fatal,Female,81,Daylight,Snowing no high winds,Rural
+Serious,Female,35,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,45,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,8,Daylight,Fine no high winds,Rural
+Slight,Female,79,Daylight,Fine no high winds,Urban
+Fatal,Male,66,Daylight,Fine no high winds,Rural
+Fatal,Male,66,Daylight,Fine no high winds,Rural
+Slight,Female,15,Daylight,Fine no high winds,Urban
+Slight,Female,74,Daylight,Fine no high winds,Urban
+Slight,Female,22,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,41,Daylight,Fine no high winds,Urban
+Fatal,Male,71,Daylight,Fine no high winds,Urban
+Serious,Female,15,Daylight,Fine no high winds,Rural
+Slight,Female,82,Daylight,Fine no high winds,Urban
+Serious,Male,-1,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,63,Daylight,Fine no high winds,Urban
+Slight,Female,18,Daylight,Fine no high winds,Urban
+Serious,Female,37,Daylight,Fine no high winds,Urban
+Serious,Male,17,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,17,Daylight,Other,Urban
+Fatal,Male,57,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,6,Daylight,Fine no high winds,Urban
+Slight,Female,6,Daylight,Fine no high winds,Urban
+Serious,Female,45,Daylight,Fine no high winds,Urban
+Fatal,Male,74,Daylight,Fine no high winds,Urban
+Slight,Male,70,Daylight,Fine no high winds,Urban
+Fatal,Female,78,Daylight,Fine no high winds,Urban
+Fatal,Male,88,Daylight,Fine no high winds,Urban
+Serious,Female,89,Daylight,Fine no high winds,Urban
+Slight,Female,22,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,24,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,61,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,64,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,16,Daylight,Raining no high winds,Urban
+Serious,Female,89,Daylight,Fine no high winds,Urban
+Fatal,Male,34,Darkness - no lighting,Raining high winds,Rural
+Slight,Female,15,Daylight,Fine no high winds,Urban
+Serious,Female,14,Daylight,Fine no high winds,Urban
+Slight,Female,14,Daylight,Fine no high winds,Urban
+Serious,Male,55,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,55,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,65,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,52,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,45,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,90,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Fatal,Female,34,Daylight,Fine no high winds,Rural
+Serious,Female,11,Daylight,Fine no high winds,Urban
+Slight,Female,11,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,65,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,18,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,22,Daylight,Fine no high winds,Urban
+Slight,Female,10,Daylight,Fine no high winds,Urban
+Serious,Male,16,Daylight,Raining no high winds,Urban
+Slight,Female,37,Daylight,Unknown,Urban
+Slight,Female,30,Daylight,Fine no high winds,Rural
+Fatal,Male,7,Daylight,Fine no high winds,Urban
+Fatal,Male,7,Daylight,Fine no high winds,Urban
+Fatal,Male,7,Daylight,Fine no high winds,Urban
+Slight,Male,70,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,30,Daylight,Fine no high winds,Urban
+Fatal,Female,38,Daylight,Fine no high winds,Urban
+Fatal,Female,38,Daylight,Fine no high winds,Urban
+Fatal,Female,38,Daylight,Fine no high winds,Urban
+Serious,Male,85,Daylight,Fine no high winds,Urban
+Serious,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,32,Daylight,Fine no high winds,Urban
+Fatal,Male,32,Daylight,Fine no high winds,Urban
+Fatal,Male,64,Darkness - lights lit,Raining no high winds,Rural
+Slight,Female,30,Daylight,Fine no high winds,Urban
+Fatal,Male,50,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,73,Daylight,Fine no high winds,Urban
+Fatal,Male,42,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,42,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,33,Daylight,Fine no high winds,Urban
+Slight,Female,30,Daylight,Fine no high winds,Urban
+Slight,Female,4,Daylight,Fine no high winds,Urban
+Fatal,Male,75,Darkness - lights lit,Raining no high winds,Rural
+Slight,Male,57,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,67,Daylight,Fine no high winds,Rural
+Fatal,Male,58,Daylight,Raining no high winds,Rural
+Slight,Male,21,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,57,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Raining no high winds,Rural
+Fatal,Male,79,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,9,Daylight,Unknown,Rural
+Slight,Male,11,Daylight,Unknown,Urban
+Serious,Female,12,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,24,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Male,24,Darkness - no lighting,Fine no high winds,Urban
+Serious,Male,8,Daylight,Fine no high winds,Urban
+Fatal,Male,69,Daylight,Fine no high winds,Urban
+Slight,Male,22,Daylight,Fine no high winds,Urban
+Slight,Male,39,Daylight,Fine no high winds,Urban
+Fatal,Female,92,Daylight,Raining no high winds,Urban
+Fatal,Male,46,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,46,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,11,Daylight,Fine no high winds,Urban
+Fatal,Male,28,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,5,Daylight,Fine no high winds,Urban
+Serious,Female,9,Daylight,Fine no high winds,Urban
+Slight,Male,56,Daylight,Unknown,Urban
+Slight,Female,8,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Fatal,Male,82,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,27,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,-1,Daylight,Raining no high winds,Rural
+Slight,Female,39,Daylight,Raining no high winds,Rural
+Serious,Male,67,Daylight,Fine no high winds,Urban
+Serious,Male,64,Daylight,Fine no high winds,Rural
+Fatal,Female,92,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,4,Daylight,Fine high winds,Urban
+Slight,Male,70,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,7,Daylight,Fine no high winds,Urban
+Serious,Female,71,Daylight,Unknown,Urban
+Slight,Male,3,Daylight,Fine no high winds,Urban
+Fatal,Male,64,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,50,Daylight,Fine no high winds,Urban
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Fatal,Male,18,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,82,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,7,Daylight,Fine no high winds,Urban
+Serious,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,27,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Female,27,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Female,27,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Female,4,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Female,4,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Female,4,Darkness - lights unlit,Raining high winds,Urban
+Fatal,Male,19,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Male,66,Daylight,Fine no high winds,Urban
+Fatal,Male,53,Daylight,Fine no high winds,Urban
+Serious,Female,81,Daylight,Fine no high winds,Urban
+Slight,Female,29,Daylight,Fine no high winds,Urban
+Fatal,Male,51,Daylight,Fine no high winds,Urban
+Fatal,Male,62,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,62,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,62,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,17,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,17,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,17,Darkness - lights lit,Fine no high winds,Rural
+Serious,Female,58,Darkness - lights lit,Fine no high winds,Rural
+Serious,Female,58,Darkness - lights lit,Fine no high winds,Rural
+Serious,Female,58,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,58,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,58,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,58,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,5,Daylight,Unknown,Urban
+Slight,Male,31,Daylight,Fine no high winds,Urban
+Fatal,Female,72,Daylight,Raining no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Serious,Male,36,Daylight,Fine no high winds,Urban
+Serious,Male,36,Daylight,Fine no high winds,Urban
+Serious,Male,36,Daylight,Fine no high winds,Urban
+Slight,Female,75,Daylight,Fine no high winds,Urban
+Slight,Male,9,Daylight,Fine no high winds,Urban
+Fatal,Male,81,Daylight,Fine no high winds,Rural
+Fatal,Male,36,Darkness - no lighting,Fine no high winds,Rural
+Slight,Female,42,Daylight,Fine no high winds,Rural
+Slight,Female,51,Daylight,Fine no high winds,Urban
+Fatal,Male,26,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,30,Daylight,Fine no high winds,Rural
+Slight,Male,12,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,40,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,62,Daylight,Fine no high winds,Rural
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Fatal,Male,82,Darkness - lights unlit,Fine no high winds,Urban
+Serious,Male,25,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,25,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,25,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,6,Darkness - lights unlit,Fine no high winds,Urban
+Serious,Male,2,Daylight,Fine no high winds,Urban
+Slight,Male,58,Daylight,Fine no high winds,Urban
+Slight,Male,58,Daylight,Fine no high winds,Urban
+Fatal,Male,75,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,20,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,20,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,49,Daylight,Fine no high winds,Urban
+Fatal,Female,81,Daylight,Raining no high winds,Urban
+Slight,Female,55,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,55,Daylight,Fine no high winds,Rural
+Serious,Female,78,Daylight,Other,Rural
+Serious,Female,11,Daylight,Fine no high winds,Urban
+Serious,Female,82,Daylight,Fine no high winds,Urban
+Serious,Female,82,Daylight,Fine no high winds,Urban
+Fatal,Male,80,Daylight,Fine no high winds,Urban
+Fatal,Male,80,Daylight,Fine no high winds,Urban
+Fatal,Female,86,Daylight,Snowing no high winds,Urban
+Serious,Male,52,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,62,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,28,Daylight,Fine no high winds,Urban
+Fatal,Male,70,Daylight,Fine no high winds,Urban
+Slight,Female,5,Daylight,Fine no high winds,Urban
+Slight,Male,33,Daylight,Fine no high winds,Urban
+Serious,Female,67,Daylight,Fine no high winds,Urban
+Serious,Male,58,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,33,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,35,Daylight,Other,Urban
+Slight,Female,25,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,30,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,40,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,40,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,47,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,76,Daylight,Raining no high winds,Urban
+Fatal,Female,73,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,31,Daylight,Fine no high winds,Urban
+Slight,Female,36,Daylight,Fine no high winds,Urban
+Fatal,Male,20,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,20,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,89,Daylight,Fine no high winds,Urban
+Serious,Male,23,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Slight,Male,76,Daylight,Fine no high winds,Urban
+Serious,Female,23,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,23,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,69,Daylight,Fine no high winds,Urban
+Slight,Female,69,Daylight,Fine no high winds,Urban
+Slight,Female,33,Daylight,Fine no high winds,Urban
+Serious,Male,27,Daylight,Fine no high winds,Urban
+Serious,Male,27,Daylight,Fine no high winds,Urban
+Serious,Female,87,Daylight,Fine no high winds,Urban
+Serious,Male,27,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,9,Daylight,Fine no high winds,Urban
+Serious,Male,49,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,57,Daylight,Fine no high winds,Rural
+Serious,Male,17,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Male,28,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,79,Daylight,Fine no high winds,Urban
+Fatal,Female,79,Daylight,Fine no high winds,Urban
+Fatal,Female,79,Daylight,Fine no high winds,Urban
+Fatal,Female,49,Daylight,Fine no high winds,Urban
+Fatal,Male,52,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,87,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,62,Daylight,Fine no high winds,Urban
+Serious,Male,35,Daylight,Fine no high winds,Urban
+Serious,Male,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,30,Daylight,Raining no high winds,Urban
+Slight,Female,7,Daylight,Fine no high winds,Urban
+Slight,Male,5,Daylight,Fine no high winds,Urban
+Slight,Female,33,Daylight,Fine no high winds,Urban
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Slight,Female,13,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,88,Darkness - lights unlit,Raining no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Rural
+Serious,Female,28,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,53,Daylight,Fine no high winds,Urban
+Serious,Male,49,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,77,Daylight,Fine no high winds,Rural
+Fatal,Female,42,Darkness - lights lit,Other,Urban
+Fatal,Female,42,Darkness - lights lit,Other,Urban
+Serious,Female,31,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,60,Darkness - lights lit,Fine high winds,Urban
+Fatal,Male,87,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,87,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,67,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,25,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,37,Darkness - lights lit,Other,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Serious,Male,52,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,45,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,9,Daylight,Unknown,Urban
+Serious,Female,58,Daylight,Fine no high winds,Urban
+Serious,Female,58,Daylight,Fine no high winds,Urban
+Slight,Female,22,Daylight,Fine no high winds,Urban
+Fatal,Male,81,Daylight,Fine no high winds,Urban
+Serious,Male,5,Daylight,Unknown,Urban
+Fatal,Female,31,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,56,Daylight,Fine no high winds,Urban
+Slight,Female,7,Daylight,Fine high winds,Urban
+Slight,Male,38,Darkness - lights lit,Raining high winds,Urban
+Fatal,Male,16,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,31,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,59,Daylight,Raining no high winds,Urban
+Slight,Male,10,Daylight,Fine no high winds,Urban
+Serious,Male,31,Daylight,Raining no high winds,Urban
+Fatal,Female,41,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,41,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,33,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,42,Daylight,Fine no high winds,Urban
+Serious,Male,54,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,54,Daylight,Fine no high winds,Urban
+Serious,Female,54,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,60,Daylight,Fine no high winds,Urban
+Serious,Female,2,Daylight,Raining no high winds,Urban
+Serious,Male,80,Darkness - no lighting,Fine no high winds,Urban
+Serious,Female,73,Daylight,Fine no high winds,Urban
+Serious,Male,40,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,70,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,79,Darkness - lights unlit,Raining no high winds,Urban
+Fatal,Male,79,Daylight,Fine no high winds,Urban
+Serious,Female,59,Daylight,Fine no high winds,Urban
+Slight,Male,41,Daylight,Fine no high winds,Urban
+Slight,Male,24,Daylight,Raining no high winds,Urban
+Slight,Female,31,Daylight,Fine no high winds,Urban
+Slight,Male,34,Daylight,Fine no high winds,Urban
+Serious,Male,66,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,66,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,22,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,77,Daylight,Fine no high winds,Urban
+Serious,Female,51,Daylight,Fine no high winds,Urban
+Slight,Male,49,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,46,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,18,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,16,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Male,62,Daylight,Fine no high winds,Rural
+Slight,Female,76,Daylight,Fine no high winds,Urban
+Slight,Female,25,Daylight,Other,Urban
+Fatal,Male,86,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,70,Daylight,Fine no high winds,Urban
+Fatal,Female,61,Daylight,Fine no high winds,Urban
+Fatal,Female,86,Daylight,Fine no high winds,Rural
+Slight,Male,11,Daylight,Raining no high winds,Urban
+Slight,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,65,Daylight,Fine no high winds,Urban
+Serious,Male,70,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,-1,Daylight,Raining no high winds,Rural
+Serious,Female,25,Daylight,Fine no high winds,Urban
+Slight,Male,9,Daylight,Fine no high winds,Urban
+Slight,Female,60,Daylight,Fine no high winds,Urban
+Serious,Male,35,Darkness - lights lit,Snowing no high winds,Urban
+Serious,Male,47,Daylight,Fine no high winds,Urban
+Fatal,Male,73,Daylight,Fine no high winds,Urban
+Slight,Male,4,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,4,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,84,Daylight,Fine high winds,Urban
+Serious,Male,5,Daylight,Fine no high winds,Urban
+Fatal,Male,43,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,43,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,78,Daylight,Fine no high winds,Urban
+Serious,Female,15,Daylight,Fine no high winds,Urban
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Slight,Female,43,Daylight,Snowing no high winds,Rural
+Serious,Male,4,Daylight,Fine no high winds,Urban
+Fatal,Female,74,Daylight,Fine no high winds,Urban
+Serious,Male,53,Daylight,Raining no high winds,Urban
+Serious,Male,16,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,16,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,24,Daylight,Fine no high winds,Urban
+Fatal,Male,18,Darkness - no lighting,Raining no high winds,Rural
+Slight,Female,2,Daylight,Fine no high winds,Urban
+Serious,Male,24,Daylight,Fine no high winds,Urban
+Serious,Female,88,Daylight,Fine no high winds,Urban
+Fatal,Male,59,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,74,Daylight,Fine no high winds,Urban
+Slight,Female,43,Daylight,Fine no high winds,Urban
+Slight,Female,49,Daylight,Fine no high winds,Urban
+Slight,Male,24,Darkness - no lighting,Raining no high winds,Rural
+Slight,Female,36,Daylight,Fine no high winds,Urban
+Slight,Male,9,Daylight,Fine high winds,Urban
+Slight,Female,14,Daylight,Fine high winds,Urban
+Serious,Male,16,Daylight,Fine no high winds,Urban
+Serious,Male,16,Daylight,Fine no high winds,Urban
+Fatal,Male,15,Daylight,Fine no high winds,Urban
+Fatal,Male,15,Daylight,Fine no high winds,Urban
+Slight,Female,14,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,7,Daylight,Fine no high winds,Urban
+Fatal,Female,83,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,83,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,24,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,82,Daylight,Other,Urban
+Fatal,Female,83,Daylight,Other,Urban
+Fatal,Male,88,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,18,Daylight,Fine no high winds,Urban
+Serious,Female,61,Daylight,Fine no high winds,Urban
+Fatal,Male,10,Daylight,Fine no high winds,Urban
+Fatal,Male,10,Daylight,Fine no high winds,Urban
+Fatal,Male,10,Daylight,Fine no high winds,Urban
+Slight,Male,66,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,14,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,47,Daylight,Raining no high winds,Urban
+Fatal,Female,91,Daylight,Fine no high winds,Urban
+Fatal,Male,76,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,0,Daylight,Unknown,Rural
+Slight,Male,21,Daylight,Fine no high winds,Urban
+Serious,Male,70,Daylight,Fine no high winds,Urban
+Slight,Male,58,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,87,Daylight,Fine no high winds,Rural
+Serious,Male,23,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,23,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,24,Daylight,Fine no high winds,Urban
+Serious,Female,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,15,Daylight,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,8,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,8,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,8,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,8,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,8,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,10,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,14,Daylight,Fine no high winds,Urban
+Serious,Male,91,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,37,Daylight,Fine no high winds,Urban
+Serious,Male,41,Darkness - lights lit,Fog or mist,Urban
+Fatal,Male,41,Darkness - no lighting,Fog or mist,Rural
+Slight,Male,-1,Daylight,Unknown,Urban
+Slight,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,88,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,6,Daylight,Fine no high winds,Urban
+Slight,Male,14,Daylight,Fine no high winds,Urban
+Serious,Male,15,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,30,Daylight,Fine no high winds,Urban
+Serious,Male,40,Darkness - lights lit,Other,Urban
+Slight,Female,24,Daylight,Fine no high winds,Urban
+Fatal,Female,52,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,81,Daylight,Fine no high winds,Urban
+Serious,Male,56,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,62,Daylight,Raining no high winds,Urban
+Fatal,Male,69,Daylight,Fine no high winds,Urban
+Slight,Female,15,Daylight,Snowing no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Rural
+Serious,Male,3,Daylight,Fine no high winds,Urban
+Slight,Male,48,Daylight,Fine no high winds,Urban
+Fatal,Male,26,Darkness - no lighting,Other,Rural
+Fatal,Male,43,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Male,43,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Male,43,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Male,43,Darkness - lights lit,Raining no high winds,Rural
+Fatal,Female,40,Daylight,Fine no high winds,Rural
+Serious,Male,77,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,90,Daylight,Fine no high winds,Urban
+Fatal,Female,90,Daylight,Fine no high winds,Urban
+Fatal,Female,90,Daylight,Fine no high winds,Urban
+Fatal,Female,61,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,80,Daylight,Raining no high winds,Urban
+Slight,Male,86,Daylight,Fine no high winds,Urban
+Serious,Male,25,Daylight,Fine no high winds,Urban
+Slight,Male,39,Darkness - lights lit,Unknown,Rural
+Slight,Male,39,Darkness - lights lit,Unknown,Rural
+Slight,Male,3,Daylight,Fine no high winds,Urban
+Fatal,Male,44,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,53,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,40,Darkness - lights lit,Raining high winds,Urban
+Serious,Male,35,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,45,Daylight,Fine no high winds,Urban
+Serious,Male,46,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,14,Daylight,Unknown,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Serious,Female,42,Daylight,Fine no high winds,Urban
+Slight,Female,60,Daylight,Fine no high winds,Urban
+Serious,Male,46,Daylight,Fine no high winds,Urban
+Fatal,Female,71,Daylight,Fine no high winds,Urban
+Slight,Female,54,Darkness - lights lit,Unknown,Urban
+Slight,Male,14,Daylight,Fine no high winds,Urban
+Fatal,Male,75,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,27,Darkness - lights lit,Raining no high winds,Rural
+Slight,Male,13,Daylight,Fine no high winds,Urban
+Fatal,Female,62,Daylight,Fine no high winds,Rural
+Slight,Female,67,Daylight,Fine no high winds,Urban
+Slight,Female,74,Daylight,Fine no high winds,Urban
+Slight,Female,21,Daylight,Fine no high winds,Urban
+Fatal,Male,45,Daylight,Fine no high winds,Urban
+Slight,Male,4,Daylight,Unknown,Urban
+Serious,Female,51,Daylight,Fog or mist,Urban
+Serious,Female,6,Daylight,Fine no high winds,Urban
+Serious,Male,16,Daylight,Raining no high winds,Urban
+Serious,Male,78,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,89,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,51,Darkness - no lighting,Fine high winds,Rural
+Serious,Male,22,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,18,Daylight,Fine no high winds,Rural
+Fatal,Male,18,Daylight,Fine no high winds,Rural
+Fatal,Female,76,Daylight,Fine no high winds,Urban
+Fatal,Female,76,Daylight,Fine no high winds,Urban
+Fatal,Female,76,Daylight,Fine no high winds,Urban
+Slight,Female,80,Daylight,Fine no high winds,Urban
+Slight,Female,80,Daylight,Fine no high winds,Urban
+Slight,Female,80,Daylight,Fine no high winds,Urban
+Slight,Male,40,Daylight,Fine no high winds,Urban
+Slight,Female,22,Daylight,Fine no high winds,Rural
+Slight,Female,1,Daylight,Fine no high winds,Rural
+Serious,Male,26,Daylight,Fine no high winds,Urban
+Fatal,Female,30,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Female,30,Darkness - no lighting,Raining no high winds,Rural
+Serious,Female,44,Darkness - lights unlit,Fine no high winds,Rural
+Slight,Male,35,Daylight,Fine no high winds,Rural
+Serious,Male,49,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,21,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,21,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,39,Daylight,Fine no high winds,Urban
+Slight,Male,39,Daylight,Fine no high winds,Urban
+Slight,Male,39,Daylight,Fine no high winds,Urban
+Serious,Female,38,Daylight,Fine no high winds,Urban
+Serious,Female,38,Daylight,Fine no high winds,Urban
+Serious,Female,38,Daylight,Fine no high winds,Urban
+Serious,Female,84,Daylight,Fine no high winds,Urban
+Serious,Male,16,Daylight,Unknown,Urban
+Serious,Male,77,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,6,Daylight,Fine no high winds,Urban
+Slight,Female,16,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,49,Daylight,Fine no high winds,Urban
+Fatal,Male,63,Daylight,Fine no high winds,Urban
+Serious,Female,82,Daylight,Fine no high winds,Rural
+Fatal,Female,13,Daylight,Fine no high winds,Rural
+Slight,Male,14,Darkness - lighting unknown,Unknown,Urban
+Slight,Female,5,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,15,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,49,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,18,Daylight,Fine no high winds,Urban
+Fatal,Female,71,Daylight,Fine no high winds,Urban
+Slight,Male,10,Daylight,Fine no high winds,Urban
+Serious,Male,39,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,5,Daylight,Unknown,Urban
+Slight,Male,52,Darkness - lights lit,Raining high winds,Urban
+Slight,Male,12,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,75,Daylight,Fine no high winds,Urban
+Serious,Male,41,Daylight,Fine no high winds,Urban
+Slight,Male,5,Daylight,Fine no high winds,Urban
+Serious,Female,12,Daylight,Fine no high winds,Urban
+Serious,Female,12,Daylight,Fine no high winds,Urban
+Slight,Male,31,Daylight,Fine no high winds,Urban
+Slight,Male,31,Daylight,Fine no high winds,Urban
+Fatal,Male,29,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Female,83,Daylight,Other,Urban
+Slight,Male,75,Daylight,Fine no high winds,Urban
+Slight,Female,84,Daylight,Fine no high winds,Urban
+Slight,Female,44,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,53,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,30,Daylight,Fine no high winds,Urban
+Serious,Female,30,Darkness - lights unlit,Fine no high winds,Urban
+Fatal,Female,77,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Female,29,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Male,20,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Male,22,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Female,33,Darkness - lights unlit,Fine no high winds,Urban
+Serious,Male,35,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Female,32,Darkness - lighting unknown,Unknown,Urban
+Serious,Female,57,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,63,Daylight,Fine no high winds,Urban
+Slight,Male,18,Daylight,Fine no high winds,Urban
+Fatal,Male,49,Darkness - lighting unknown,Raining no high winds,Urban
+Fatal,Male,25,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,84,Daylight,Fine no high winds,Urban
+Slight,Male,38,Daylight,Fine no high winds,Urban
+Slight,Male,38,Daylight,Fine no high winds,Urban
+Slight,Female,57,Daylight,Fine no high winds,Urban
+Slight,Female,57,Daylight,Fine no high winds,Urban
+Slight,Female,57,Daylight,Fine no high winds,Urban
+Slight,Female,57,Daylight,Fine no high winds,Urban
+Fatal,Male,52,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,35,Darkness - no lighting,Fine high winds,Rural
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,35,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,30,Daylight,Fine no high winds,Urban
+Serious,Female,81,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Slight,Female,11,Daylight,Fine no high winds,Urban
+Serious,Female,82,Daylight,Fine no high winds,Rural
+Serious,Female,-1,Daylight,Fine no high winds,Urban
+Serious,Female,-1,Daylight,Fine no high winds,Rural
+Serious,Female,-1,Daylight,Fine no high winds,Rural
+Slight,Male,36,Daylight,Fine no high winds,Rural
+Slight,Male,36,Daylight,Fine no high winds,Rural
+Slight,Male,48,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,54,Darkness - lights lit,Unknown,Urban
+Slight,Male,10,Daylight,Fine no high winds,Urban
+Serious,Male,33,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,7,Daylight,Fine no high winds,Urban
+Fatal,Female,18,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,10,Daylight,Fine no high winds,Urban
+Slight,Male,34,Daylight,Fine no high winds,Rural
+Slight,Female,28,Daylight,Fine no high winds,Urban
+Slight,Female,21,Daylight,Other,Urban
+Serious,Male,3,Daylight,Fine no high winds,Urban
+Serious,Female,14,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,15,Daylight,Fine no high winds,Rural
+Fatal,Male,34,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,34,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,34,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,34,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,84,Daylight,Fine no high winds,Urban
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Slight,Female,48,Daylight,Other,Urban
+Slight,Female,10,Daylight,Fine no high winds,Urban
+Fatal,Male,40,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,75,Daylight,Fine no high winds,Urban
+Serious,Female,65,Daylight,Fine no high winds,Urban
+Serious,Male,17,Daylight,Fine no high winds,Rural
+Slight,Female,29,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,-1,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,57,Daylight,Fine no high winds,Urban
+Serious,Female,-1,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Male,57,Daylight,Raining no high winds,Urban
+Fatal,Male,83,Daylight,Fine no high winds,Urban
+Serious,Male,41,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,77,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,35,Daylight,Fine no high winds,Urban
+Slight,Male,35,Daylight,Fine no high winds,Urban
+Fatal,Female,79,Daylight,Fine no high winds,Rural
+Slight,Male,-1,Daylight,Fine no high winds,Urban
+Serious,Male,38,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,67,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,58,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,74,Daylight,Fine no high winds,Urban
+Slight,Male,76,Daylight,Fine no high winds,Urban
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,41,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,20,Daylight,Fine no high winds,Urban
+Serious,Female,13,Daylight,Fine no high winds,Urban
+Fatal,Female,16,Daylight,Fine no high winds,Urban
+Fatal,Female,16,Daylight,Fine no high winds,Urban
+Fatal,Female,16,Daylight,Fine no high winds,Urban
+Slight,Female,87,Daylight,Fine no high winds,Urban
+Serious,Female,74,Daylight,Fine no high winds,Urban
+Fatal,Female,1,Daylight,Fine no high winds,Urban
+Fatal,Female,51,Daylight,Fine no high winds,Urban
+Slight,Female,60,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,83,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,16,Daylight,Fine no high winds,Urban
+Slight,Female,21,Daylight,Fine no high winds,Rural
+Fatal,Female,69,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,83,Daylight,Fine no high winds,Urban
+Slight,Male,50,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,81,Daylight,Fine no high winds,Urban
+Fatal,Female,81,Daylight,Fine no high winds,Urban
+Fatal,Female,81,Daylight,Fine no high winds,Urban
+Serious,Female,66,Daylight,Fine no high winds,Urban
+Serious,Female,48,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,-1,Darkness - lights lit,Unknown,Urban
+Slight,Female,81,Daylight,Fine no high winds,Urban
+Fatal,Male,39,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,37,Daylight,Fine no high winds,Urban
+Serious,Male,71,Daylight,Fine no high winds,Rural
+Serious,Male,20,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,76,Daylight,Fine no high winds,Urban
+Serious,Female,76,Daylight,Fine no high winds,Urban
+Serious,Female,40,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,64,Darkness - lights lit,Raining high winds,Urban
+Serious,Male,30,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,56,Daylight,Fine no high winds,Urban
+Fatal,Male,46,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,24,Daylight,Fine no high winds,Urban
+Fatal,Female,41,Darkness - lights lit,Raining high winds,Urban
+Fatal,Female,41,Darkness - lights lit,Raining high winds,Urban
+Fatal,Female,75,Daylight,Fine no high winds,Urban
+Fatal,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,29,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,17,Daylight,Fine no high winds,Rural
+Serious,Female,66,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,16,Daylight,Fine no high winds,Urban
+Fatal,Female,27,Daylight,Fine no high winds,Urban
+Slight,Male,15,Daylight,Fine no high winds,Urban
+Fatal,Male,71,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,57,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,39,Daylight,Fine no high winds,Urban
+Serious,Male,73,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,6,Daylight,Fine no high winds,Urban
+Serious,Female,42,Daylight,Fine no high winds,Urban
+Slight,Female,23,Daylight,Raining no high winds,Rural
+Serious,Female,61,Daylight,Fine no high winds,Urban
+Fatal,Female,76,Darkness - lights lit,Raining high winds,Urban
+Slight,Male,47,Daylight,Fine no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Serious,Female,41,Daylight,Fine no high winds,Urban
+Fatal,Male,4,Daylight,Fine no high winds,Urban
+Serious,Male,33,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,58,Daylight,Fine no high winds,Rural
+Slight,Male,76,Daylight,Unknown,Urban
+Slight,Female,33,Daylight,Raining no high winds,Urban
+Slight,Female,27,Darkness - lighting unknown,Fine high winds,Urban
+Slight,Male,45,Daylight,Fine no high winds,Urban
+Slight,Female,11,Daylight,Fine no high winds,Rural
+Serious,Female,77,Daylight,Fine no high winds,Urban
+Slight,Male,76,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,91,Daylight,Fine no high winds,Urban
+Fatal,Male,22,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Female,28,Daylight,Fine no high winds,Rural
+Fatal,Male,91,Daylight,Fine no high winds,Urban
+Slight,Female,42,Daylight,Fine no high winds,Urban
+Serious,Female,51,Daylight,Fine no high winds,Rural
+Serious,Female,24,Daylight,Fine no high winds,Rural
+Fatal,Male,28,Daylight,Fine no high winds,Rural
+Fatal,Female,86,Daylight,Fine no high winds,Urban
+Fatal,Male,53,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,19,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,45,Darkness - no lighting,Fine no high winds,Urban
+Serious,Male,46,Daylight,Fine no high winds,Urban
+Fatal,Male,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,83,Daylight,Fine no high winds,Urban
+Fatal,Female,62,Darkness - lights unlit,Fine no high winds,Rural
+Serious,Male,34,Darkness - lights lit,Other,Urban
+Slight,Male,4,Daylight,Fine no high winds,Urban
+Fatal,Male,35,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,42,Daylight,Fine no high winds,Urban
+Fatal,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,34,Daylight,Fine no high winds,Urban
+Slight,Female,13,Darkness - lights lit,Raining high winds,Urban
+Fatal,Female,66,Daylight,Fine no high winds,Urban
+Fatal,Female,66,Daylight,Fine no high winds,Urban
+Fatal,Female,66,Daylight,Fine no high winds,Urban
+Fatal,Male,75,Daylight,Raining no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Slight,Male,13,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Serious,Male,75,Daylight,Fine no high winds,Rural
+Fatal,Male,86,Daylight,Fine no high winds,Urban
+Fatal,Male,39,Darkness - lights lit,Other,Urban
+Serious,Male,70,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,13,Daylight,Raining no high winds,Urban
+Serious,Male,31,Daylight,Fine no high winds,Rural
+Slight,Male,29,Daylight,Fine no high winds,Urban
+Serious,Female,5,Daylight,Fine no high winds,Urban
+Slight,Female,9,Daylight,Fine no high winds,Urban
+Serious,Female,27,Daylight,Fine no high winds,Urban
+Serious,Male,19,Daylight,Fine no high winds,Urban
+Serious,Male,62,Daylight,Fine no high winds,Urban
+Slight,Female,8,Daylight,Fine no high winds,Urban
+Slight,Female,14,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,82,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,22,Daylight,Fine no high winds,Rural
+Fatal,Male,42,Daylight,Fine no high winds,Urban
+Serious,Female,11,Darkness - lights lit,Fine no high winds,Rural
+Slight,Female,36,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Fatal,Female,16,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,16,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,85,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,85,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,49,Darkness - no lighting,Raining high winds,Rural
+Fatal,Male,49,Darkness - no lighting,Raining high winds,Rural
+Slight,Female,56,Daylight,Fine no high winds,Urban
+Fatal,Female,71,Daylight,Fine no high winds,Urban
+Fatal,Female,60,Daylight,Fine no high winds,Rural
+Slight,Male,40,Daylight,Fine no high winds,Urban
+Slight,Female,15,Daylight,Fine no high winds,Urban
+Fatal,Male,55,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,55,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,55,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,26,Daylight,Fine no high winds,Urban
+Serious,Male,19,Daylight,Fine no high winds,Urban
+Fatal,Male,90,Daylight,Fine no high winds,Rural
+Serious,Male,48,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,52,Daylight,Fine no high winds,Urban
+Fatal,Male,64,Daylight,Fine no high winds,Urban
+Slight,Male,23,Daylight,Fine no high winds,Urban
+Serious,Female,62,Daylight,Fine no high winds,Rural
+Serious,Female,57,Daylight,Fine no high winds,Urban
+Fatal,Male,7,Daylight,Fine no high winds,Urban
+Fatal,Male,7,Daylight,Fine no high winds,Urban
+Serious,Male,48,Darkness - lights unlit,Fine no high winds,Urban
+Serious,Female,59,Daylight,Fine no high winds,Urban
+Slight,Female,16,Daylight,Fine no high winds,Urban
+Slight,Female,15,Daylight,Fine no high winds,Urban
+Serious,Female,57,Daylight,Fine no high winds,Urban
+Fatal,Male,54,Darkness - no lighting,Fine high winds,Urban
+Fatal,Male,54,Darkness - no lighting,Fine high winds,Urban
+Fatal,Male,54,Darkness - no lighting,Fine high winds,Urban
+Serious,Male,11,Daylight,Raining no high winds,Urban
+Fatal,Male,26,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,74,Darkness - no lighting,Raining no high winds,Rural
+Fatal,Male,74,Darkness - no lighting,Raining no high winds,Rural
+Serious,Female,58,Daylight,Raining high winds,Urban
+Serious,Female,53,Darkness - lights unlit,Raining no high winds,Urban
+Serious,Female,53,Darkness - lights unlit,Raining no high winds,Urban
+Serious,Female,53,Darkness - lights unlit,Raining no high winds,Urban
+Slight,Male,83,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,53,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,79,Daylight,Unknown,Urban
+Serious,Male,7,Daylight,Fine no high winds,Urban
+Fatal,Male,73,Darkness - lights lit,Fine no high winds,Rural
+Slight,Male,82,Darkness - lights lit,Raining high winds,Rural
+Fatal,Male,45,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Male,34,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,7,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,7,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,81,Daylight,Fine no high winds,Rural
+Serious,Male,20,Daylight,Raining no high winds,Urban
+Fatal,Male,70,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,32,Daylight,Fine no high winds,Urban
+Fatal,Male,74,Daylight,Fine no high winds,Urban
+Slight,Male,10,Daylight,Fine no high winds,Urban
+Slight,Female,16,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,76,Daylight,Fine no high winds,Urban
+Fatal,Male,21,Daylight,Fine no high winds,Urban
+Fatal,Male,82,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,20,Darkness - no lighting,Fine no high winds,Urban
+Serious,Male,45,Daylight,Fine no high winds,Urban
+Serious,Male,11,Daylight,Fine no high winds,Urban
+Slight,Female,48,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,46,Daylight,Fine no high winds,Rural
+Slight,Male,42,Daylight,Fine no high winds,Urban
+Serious,Male,20,Daylight,Fine no high winds,Urban
+Serious,Male,10,Daylight,Raining no high winds,Urban
+Slight,Male,56,Daylight,Fine no high winds,Urban
+Serious,Male,6,Daylight,Fine no high winds,Urban
+Serious,Male,57,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,63,Daylight,Raining no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Male,4,Daylight,Fine no high winds,Urban
+Slight,Male,12,Daylight,Fine no high winds,Urban
+Serious,Female,69,Daylight,Fine no high winds,Urban
+Fatal,Female,90,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,90,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,90,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,19,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Fatal,Male,67,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Male,30,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,75,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,40,Daylight,Fine no high winds,Urban
+Fatal,Female,59,Daylight,Fine no high winds,Urban
+Serious,Male,31,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,36,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,32,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Female,32,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Female,91,Daylight,Fine no high winds,Urban
+Fatal,Female,85,Daylight,Fine no high winds,Urban
+Serious,Male,52,Darkness - no lighting,Raining no high winds,Rural
+Slight,Female,-1,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,44,Daylight,Fine no high winds,Urban
+Serious,Female,44,Daylight,Fine no high winds,Urban
+Slight,Male,46,Daylight,Fine no high winds,Urban
+Slight,Female,15,Darkness - lights lit,Snowing no high winds,Urban
+Slight,Female,42,Darkness - lights lit,Snowing no high winds,Urban
+Serious,Male,53,Daylight,Fine no high winds,Urban
+Serious,Male,81,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,81,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Fatal,Male,14,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,14,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,80,Daylight,Fine no high winds,Urban
+Serious,Female,51,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,18,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,64,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,74,Daylight,Fine no high winds,Urban
+Serious,Female,78,Daylight,Fine no high winds,Urban
+Fatal,Male,55,Darkness - no lighting,Fine no high winds,Urban
+Fatal,Male,74,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,18,Darkness - lights unlit,Fine no high winds,Urban
+Slight,Male,18,Daylight,Fine no high winds,Urban
+Serious,Female,80,Daylight,Fine no high winds,Urban
+Serious,Male,12,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,82,Darkness - no lighting,Fine no high winds,Rural
+Slight,Male,2,Daylight,Fine no high winds,Rural
+Slight,Female,25,Daylight,Fine no high winds,Rural
+Serious,Male,61,Daylight,Fine no high winds,Urban
+Fatal,Male,82,Daylight,Fine no high winds,Urban
+Fatal,Female,28,Daylight,Fine no high winds,Urban
+Serious,Male,40,Daylight,Fine no high winds,Urban
+Slight,Female,22,Daylight,Fine no high winds,Urban
+Serious,Female,23,Daylight,Fine no high winds,Rural
+Serious,Male,28,Daylight,Fine no high winds,Rural
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Slight,Female,67,Daylight,Fine no high winds,Urban
+Fatal,Female,32,Daylight,Fine no high winds,Urban
+Serious,Female,86,Daylight,Fine no high winds,Urban
+Serious,Female,23,Daylight,Fine no high winds,Urban
+Serious,Male,53,Daylight,Fine no high winds,Urban
+Fatal,Male,51,Daylight,Fine no high winds,Urban
+Slight,Female,18,Daylight,Fine no high winds,Urban
+Fatal,Male,62,Daylight,Fine no high winds,Urban
+Fatal,Female,46,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,69,Daylight,Raining no high winds,Urban
+Serious,Female,8,Daylight,Fine no high winds,Urban
+Fatal,Male,15,Daylight,Fine no high winds,Urban
+Serious,Female,84,Daylight,Fine no high winds,Urban
+Serious,Female,20,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,71,Daylight,Fine no high winds,Urban
+Serious,Male,83,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,83,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,34,Darkness - lights unlit,Fine no high winds,Rural
+Serious,Male,50,Daylight,Fine no high winds,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Serious,Female,13,Daylight,Fine no high winds,Urban
+Serious,Female,7,Daylight,Raining no high winds,Urban
+Fatal,Female,85,Darkness - lighting unknown,Raining no high winds,Rural
+Slight,Male,21,Darkness - lights lit,Fine high winds,Urban
+Slight,Female,25,Darkness - lights lit,Unknown,Urban
+Serious,Male,30,Darkness - lights lit,Other,Urban
+Serious,Male,30,Darkness - lights lit,Other,Urban
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Slight,Male,11,Daylight,Fine no high winds,Urban
+Slight,Male,81,Daylight,Fine no high winds,Urban
+Fatal,Female,70,Daylight,Fine no high winds,Urban
+Slight,Female,39,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,12,Daylight,Fine no high winds,Urban
+Fatal,Male,37,Darkness - lights lit,Snowing no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Rural
+Slight,Female,12,Daylight,Fine no high winds,Rural
+Slight,Male,10,Daylight,Fine no high winds,Rural
+Slight,Male,10,Daylight,Fine no high winds,Rural
+Slight,Male,9,Daylight,Fine no high winds,Rural
+Slight,Male,9,Daylight,Fine no high winds,Rural
+Serious,Female,40,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,70,Daylight,Fine no high winds,Urban
+Fatal,Male,72,Daylight,Fine no high winds,Urban
+Slight,Female,73,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,56,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Male,77,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,45,Daylight,Fine no high winds,Urban
+Fatal,Female,82,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,14,Daylight,Fine no high winds,Urban
+Fatal,Male,55,Daylight,Fine no high winds,Rural
+Slight,Female,16,Daylight,Fine no high winds,Urban
+Fatal,Female,15,Daylight,Fine no high winds,Urban
+Serious,Female,67,Daylight,Fine no high winds,Urban
+Slight,Female,42,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,50,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,39,Daylight,Fine no high winds,Rural
+Fatal,Male,63,Darkness - lights lit,Fine no high winds,Rural
+Serious,Male,72,Daylight,Fine no high winds,Urban
+Slight,Female,32,Daylight,Fine no high winds,Urban
+Fatal,Male,84,Daylight,Fine no high winds,Rural
+Fatal,Male,26,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,72,Daylight,Fine no high winds,Urban
+Slight,Male,62,Daylight,Fine no high winds,Rural
+Slight,Male,62,Daylight,Fine no high winds,Rural
+Serious,Male,54,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,77,Daylight,Raining no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Rural
+Serious,Male,87,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,71,Daylight,Fine no high winds,Urban
+Serious,Male,63,Daylight,Raining no high winds,Rural
+Fatal,Female,62,Daylight,Fine no high winds,Urban
+Serious,Female,42,Daylight,Other,Urban
+Slight,Male,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,70,Daylight,Raining high winds,Urban
+Serious,Male,28,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,21,Daylight,Fine no high winds,Rural
+Slight,Female,31,Darkness - lights lit,Raining no high winds,Urban
+Serious,Male,79,Daylight,Raining no high winds,Urban
+Slight,Male,24,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,76,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Fatal,Male,45,Daylight,Fine no high winds,Rural
+Serious,Male,31,Darkness - lights lit,Snowing high winds,Urban
+Serious,Male,19,Darkness - lights lit,Snowing high winds,Urban
+Fatal,Female,82,Daylight,Snowing no high winds,Urban
+Slight,Male,19,Daylight,Fine no high winds,Urban
+Slight,Male,19,Daylight,Fine no high winds,Urban
+Slight,Male,-1,Daylight,Other,Urban
+Serious,Male,51,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,58,Daylight,Fine no high winds,Urban
+Fatal,Male,63,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,24,Daylight,Fine no high winds,Rural
+Serious,Male,11,Daylight,Fine no high winds,Urban
+Fatal,Male,33,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,85,Daylight,Fine no high winds,Rural
+Fatal,Male,19,Daylight,Fine no high winds,Urban
+Serious,Female,19,Daylight,Fine no high winds,Urban
+Slight,Female,17,Daylight,Fine no high winds,Urban
+Serious,Male,22,Daylight,Unknown,Urban
+Serious,Male,15,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,13,Daylight,Fine no high winds,Rural
+Fatal,Male,46,Daylight,Raining no high winds,Urban
+Serious,Male,-1,Daylight,Raining high winds,Rural
+Serious,Female,67,Daylight,Fine no high winds,Rural
+Fatal,Female,21,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,27,Daylight,Fine no high winds,Urban
+Serious,Female,35,Daylight,Fine no high winds,Urban
+Slight,Male,39,Daylight,Fine no high winds,Urban
+Serious,Male,14,Daylight,Fine no high winds,Rural
+Serious,Male,14,Daylight,Fine no high winds,Rural
+Serious,Male,14,Daylight,Fine no high winds,Rural
+Serious,Female,41,Daylight,Fine no high winds,Rural
+Serious,Female,41,Daylight,Fine no high winds,Rural
+Serious,Female,41,Daylight,Fine no high winds,Rural
+Serious,Female,13,Daylight,Fine no high winds,Rural
+Serious,Female,13,Daylight,Fine no high winds,Rural
+Serious,Female,13,Daylight,Fine no high winds,Rural
+Fatal,Female,6,Daylight,Fine no high winds,Rural
+Fatal,Female,6,Daylight,Fine no high winds,Rural
+Fatal,Female,6,Daylight,Fine no high winds,Rural
+Fatal,Male,19,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,33,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,39,Daylight,Fine no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Fatal,Female,86,Daylight,Raining no high winds,Urban
+Fatal,Male,48,Daylight,Fine no high winds,Rural
+Serious,Male,63,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,25,Daylight,Fine no high winds,Rural
+Slight,Female,25,Daylight,Fine no high winds,Rural
+Slight,Male,30,Daylight,Fine no high winds,Urban
+Slight,Male,55,Daylight,Fine no high winds,Urban
+Fatal,Male,46,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,65,Daylight,Fine no high winds,Urban
+Slight,Male,35,Darkness - lighting unknown,Raining no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Slight,Female,13,Daylight,Fine no high winds,Urban
+Slight,Male,13,Daylight,Fine no high winds,Urban
+Slight,Male,13,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,67,Daylight,Raining no high winds,Rural
+Slight,Male,69,Daylight,Raining no high winds,Rural
+Fatal,Male,49,Darkness - lighting unknown,Raining no high winds,Urban
+Slight,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,27,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,67,Daylight,Fine no high winds,Urban
+Slight,Male,-1,Darkness - lighting unknown,Fine no high winds,Urban
+Slight,Female,34,Daylight,Fine no high winds,Urban
+Serious,Female,47,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,1,Daylight,Fine no high winds,Urban
+Fatal,Female,77,Daylight,Fine no high winds,Urban
+Slight,Female,38,Daylight,Fine no high winds,Urban
+Slight,Female,38,Daylight,Fine no high winds,Urban
+Fatal,Male,44,Daylight,Fine no high winds,Urban
+Slight,Male,9,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,77,Daylight,Fine no high winds,Urban
+Fatal,Male,77,Daylight,Fine no high winds,Urban
+Fatal,Male,90,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,90,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,74,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,11,Daylight,Fine no high winds,Rural
+Fatal,Male,37,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,78,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Slight,Male,50,Daylight,Fine no high winds,Urban
+Serious,Female,64,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,36,Daylight,Fine no high winds,Urban
+Serious,Male,75,Daylight,Fine no high winds,Urban
+Fatal,Female,71,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,9,Daylight,Fine no high winds,Urban
+Fatal,Female,72,Daylight,Fine no high winds,Rural
+Fatal,Female,72,Daylight,Fine no high winds,Rural
+Serious,Female,61,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,88,Daylight,Fine no high winds,Urban
+Fatal,Male,18,Darkness - no lighting,Fine no high winds,Rural
+Serious,Female,64,Daylight,Raining high winds,Urban
+Fatal,Male,70,Darkness - no lighting,Fine no high winds,Urban
+Slight,Male,69,Daylight,Fine no high winds,Urban
+Serious,Male,36,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,36,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,83,Daylight,Fine no high winds,Urban
+Serious,Female,78,Daylight,Fine high winds,Urban
+Serious,Male,6,Daylight,Unknown,Urban
+Fatal,Female,81,Daylight,Fine no high winds,Urban
+Serious,Male,29,Daylight,Fine high winds,Urban
+Serious,Male,15,Daylight,Fine no high winds,Urban
+Serious,Female,81,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,84,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,30,Darkness - lights lit,Other,Urban
+Serious,Male,13,Daylight,Fine no high winds,Urban
+Fatal,Male,81,Daylight,Fine no high winds,Urban
+Serious,Female,75,Daylight,Fine no high winds,Urban
+Serious,Female,12,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Male,43,Darkness - lights lit,Fine no high winds,Urban
+Slight,Male,43,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,76,Daylight,Fine no high winds,Urban
+Serious,Female,80,Daylight,Fine no high winds,Urban
+Slight,Female,46,Darkness - lights lit,Other,Rural
+Serious,Male,9,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,13,Daylight,Fine no high winds,Urban
+Fatal,Male,66,Darkness - lights lit,Raining high winds,Urban
+Slight,Male,41,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,4,Daylight,Fine no high winds,Urban
+Serious,Male,47,Daylight,Fine no high winds,Urban
+Serious,Male,26,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,11,Daylight,Fine no high winds,Urban
+Serious,Male,73,Daylight,Fine no high winds,Urban
+Serious,Male,28,Daylight,Raining no high winds,Urban
+Slight,Female,17,Daylight,Fine no high winds,Urban
+Serious,Female,59,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,52,Daylight,Fine no high winds,Rural
+Fatal,Female,52,Daylight,Fine no high winds,Rural
+Fatal,Female,56,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,56,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,56,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,41,Daylight,Fine no high winds,Urban
+Slight,Male,18,Daylight,Fine no high winds,Urban
+Fatal,Male,62,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,91,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,18,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,18,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,18,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Female,18,Darkness - no lighting,Fine no high winds,Rural
+Serious,Male,51,Darkness - lights lit,Raining high winds,Urban
+Slight,Male,47,Daylight,Fine no high winds,Urban
+Slight,Female,11,Daylight,Fine no high winds,Rural
+Fatal,Female,56,Daylight,Fine no high winds,Urban
+Serious,Male,25,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,11,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,44,Daylight,Fine no high winds,Urban
+Serious,Female,44,Daylight,Fine no high winds,Urban
+Fatal,Female,8,Daylight,Fine no high winds,Urban
+Fatal,Female,7,Daylight,Fine no high winds,Urban
+Serious,Female,38,Daylight,Fine no high winds,Urban
+Fatal,Male,16,Darkness - lights lit,Fine no high winds,Rural
+Fatal,Male,8,Daylight,Fine no high winds,Urban
+Fatal,Female,88,Darkness - lights lit,Raining no high winds,Urban
+Slight,Male,33,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,14,Daylight,Fine no high winds,Urban
+Serious,Female,56,Darkness - lighting unknown,Fine no high winds,Urban
+Slight,Female,42,Daylight,Fine no high winds,Urban
+Slight,Female,-1,Daylight,Fine no high winds,Urban
+Serious,Female,58,Daylight,Fine no high winds,Urban
+Slight,Male,4,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,31,Darkness - lights lit,Fine no high winds,Urban
+Serious,Male,40,Darkness - lights lit,Raining no high winds,Urban
+Serious,Female,38,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Female,82,Darkness - lights lit,Raining no high winds,Urban
+Fatal,Female,38,Darkness - lighting unknown,Fine no high winds,Urban
+Serious,Female,27,Daylight,Fine no high winds,Urban
+Serious,Female,32,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,41,Darkness - no lighting,Fine no high winds,Rural
+Fatal,Male,69,Daylight,Fine no high winds,Urban
+Fatal,Male,60,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,39,Darkness - lights lit,Fine no high winds,Urban
+Fatal,Male,32,Darkness - lights lit,Fine no high winds,Urban
+Slight,Female,16,Daylight,Fine no high winds,Urban
+Slight,Female,21,Daylight,Fine no high winds,Urban
+Serious,Female,30,Daylight,Fine no high winds,Urban
+Fatal,Male,42,Daylight,Fine no high winds,Rural
+Serious,Female,33,Darkness - lights lit,Raining no high winds,Urban
+Slight,Female,12,Daylight,Fine no high winds,Urban
+Serious,Male,12,Daylight,Fine no high winds,Urban
+Slight,Female,20,Daylight,Fine no high winds,Urban
+Slight,Male,16,Daylight,Fine no high winds,Rural
+Fatal,Male,80,Daylight,Fine no high winds,Urban
+Slight,Female,22,Darkness - lights lit,Fine no high winds,Urban
+Serious,Female,26,Daylight,Fine no high winds,Urban
+Fatal,Male,53,Daylight,Fine no high winds,Rural
+Serious,Female,37,Daylight,Fine no high winds,Urban
+Slight,Male,4,Daylight,Fine no high winds,Urban
+Serious,Male,3,Daylight,Fine high winds,Urban
+Fatal,Male,87,Daylight,Fine no high winds,Urban
+Slight,Male,49,Darkness - no lighting,Raining no high winds,Rural
+Serious,Male,54,Darkness - lighting unknown,Fine no high winds,Urban
+Fatal,Male,76,Darkness - no lighting,Fine no high winds,Rural
