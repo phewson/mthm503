@@ -8,6 +8,5 @@ mock_df <- data.frame(
 DBI::dbWriteTable(con, "stats19_casualties", mock_df, overwrite = TRUE)
 mock_bike_hire <- dget(here::here("mock_data", "bike_hire.R"))
 DBI::dbWriteTable(con, "bike_hire", mock_bike_hire, overwrite = TRUE)
-
-
+DBI::dbWriteTable(con, "stats19_casualties", mock_df, overwrite = TRUE)
 DBI::dbDisconnect(con)

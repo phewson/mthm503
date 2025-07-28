@@ -1,7 +1,6 @@
 let
   pkgs = import (fetchTarball "https://github.com/rstats-on-nix/nixpkgs/archive/2024-04-29.tar.gz") {};
   # Define a path where Miniconda will be installed in the user's home directory
-  minicondaPath = "$HOME/.miniconda3";
 
   rpkgs = builtins.attrValues {
     inherit (pkgs.rPackages)
@@ -47,4 +46,5 @@ in pkgs.mkShell {
     echo "✅ Miniconda available. Run 'conda init' if needed."
 
   '';
+
 }
