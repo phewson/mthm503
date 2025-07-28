@@ -1,0 +1,50 @@
+---
+title: "Olive Oil Cluster Report"
+format: html
+execute:
+  python:
+    python: /home/phewson/.miniconda3/envs/olive_env/bin/python
+
+---
+
+# Data Visualization
+
+Some not very helpful summary of the data, need to work on this
+
+```{python}
+#| echo: false
+#| fig-show: true
+import sys
+print(sys.executable)
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("data/olive_clustered.csv")
+
+plt.figure(figsize=(8, 6))
+plt.scatter(df.iloc[:, 0], df.iloc[:, 1], c=df['cluster'], cmap='viridis')
+plt.title("Olive Oil Clusters")
+plt.xlabel(df.columns[0])
+plt.ylabel(df.columns[1])
+plt.savefig("report.png")
+plt.show()
+```
+
+And that concludes the report
+
+
+```{python}
+df = pd.read_csv("data/olive_clustered.csv")
+plt.figure(figsize=(8, 6))
+scatter = plt.scatter(
+    df.iloc[:, 2], df.iloc[:, 3],
+    c=df['cluster'], cmap='tab10', s=50, edgecolor='k'
+)
+
+plt.title("Olive Oil Clusters")
+plt.xlabel(df.columns[0])
+plt.ylabel(df.columns[1])
+plt.grid(True)
+plt.savefig("olive_clusters.png")
+plt.show()
+```
